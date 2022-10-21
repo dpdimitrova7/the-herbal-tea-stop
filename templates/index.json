@@ -33,7 +33,7 @@
         "content_layout": "overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 88,
+        "padding_top": 40,
         "padding_bottom": 0
       }
     },
@@ -91,7 +91,7 @@
         "inner_background": true,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 44,
         "padding_bottom": 36
       }
     },
