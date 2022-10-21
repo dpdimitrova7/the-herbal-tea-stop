@@ -23,8 +23,9 @@
         "template--16695896736063__2ce931f3-85db-4abe-aee2-0b7e94e589d6-1666347883bfab3adb-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/metal-strainer-with-loose-tea-next-to-a-tea-towel.jpg",
         "half_coloured_bg": true,
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
