@@ -1,5 +1,41 @@
 {
   "sections": {
+    "2ce931f3-85db-4abe-aee2-0b7e94e589d6": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16695896736063__2ce931f3-85db-4abe-aee2-0b7e94e589d6-1666347883bfab3adb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Herbal Tea Stop.",
+            "heading_size": "h1"
+          }
+        },
+        "template--16695896736063__2ce931f3-85db-4abe-aee2-0b7e94e589d6-1666347883bfab3adb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>\"Pair text with an image to focus on your chosen product\"<\/em><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16695896736063__2ce931f3-85db-4abe-aee2-0b7e94e589d6-1666347883bfab3adb-0",
+        "template--16695896736063__2ce931f3-85db-4abe-aee2-0b7e94e589d6-1666347883bfab3adb-1"
+      ],
+      "settings": {
+        "half_coloured_bg": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -103,6 +139,7 @@
     }
   },
   "order": [
+    "2ce931f3-85db-4abe-aee2-0b7e94e589d6",
     "multicolumn",
     "featured_collection",
     "video"
