@@ -25,7 +25,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_7941.jpg",
         "half_coloured_bg": true,
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
