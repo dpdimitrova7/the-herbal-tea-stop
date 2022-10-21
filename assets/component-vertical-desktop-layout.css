@@ -1,0 +1,11 @@
+.header__menu-item span {
+  text-decoration: none !important;
+}
+
+.header__inline-menu {
+  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.5);
+}
+
+.header-wrapper--border-bottom {
+  border-bottom: none;
+}

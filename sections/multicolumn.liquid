@@ -14,6 +14,24 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  {% if section.settings.inner_background %}
+    .color-{{ section.settings.color_scheme }} {
+      border-radius: var(--variant-pills-radius);
+    }
+  {% endif %}
+
+  {% if section.settings.round_images %}
+    .multicolumn .media {
+      width: 100px !important;
+      height: 100px;
+      border-radius: 50%;
+      margin: auto;
+     }
+
+     .multicolumn-list__item.center .media--adapt, .multicolumn-list__item .media--adapt .multicolumn-card__image {
+      width: inherit;
+     }
+  {% endif %}
 {%- endstyle -%}
 
 {%- liquid
@@ -24,8 +42,8 @@
   endif
 -%}
 
-<div class="multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
-  <div class="page-width section-{{ section.id }}-padding isolate">
+<div class="multicolumn {% if section.settings.inner_background %}page-width{% endif %}{% unless section.settings.inner_background %}color-{{ section.settings.color_scheme }}{% endunless %} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
+  <div class="page-width {% if section.settings.inner_background %}color-{{ section.settings.color_scheme }}{% endif %} section-{{ section.id }}-padding isolate">
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
         <h2 class="title {{ section.settings.heading_size }}">
@@ -270,6 +288,18 @@
       ],
       "default": "background-1",
       "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "round_images",
+      "default": true,
+      "label": "Round Images"
+    },
+    {
+      "type": "checkbox",
+      "id": "inner_background",
+      "default": true,
+      "label": "Inner Background"
     },
     {
       "type": "header",

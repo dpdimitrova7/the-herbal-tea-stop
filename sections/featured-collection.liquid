@@ -23,6 +23,36 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  {% if section.settings.title_alignment == "center" %}
+    .collection .title {
+      text-align: center;
+      border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.5);
+      width: fit-content;
+      margin: auto;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  {% endif %}
+
+  {%- if section.settings.card_layout -%}
+    .collection .card-wrapper {
+      padding: 1.5rem;
+      border: 0.1rem solid rgba(var(--color-foreground), 0.5);
+      border-radius: var(--collection-card-corner-radius);
+    }
+
+    .card .card__inner .card__media, .card--card, .card--standard .card__inner {
+      border-radius: var(--collection-card-corner-radius) !important;
+    }
+  {% endif %}
+
+  {% if section.settings.page_width_slider %}
+    @media screen and (min-width: 990px) {
+      .slider-component-desktop {
+      }
+    }
+  {% endif %}
 {%- endstyle -%}
 
 {%- liquid
@@ -116,6 +146,22 @@
       "id": "title",
       "default": "Featured collection",
       "label": "t:sections.featured-collection.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "left",
+      "label": "Title alignment"
     },
     {
       "type": "select",
@@ -225,9 +271,21 @@
     },
     {
       "type": "checkbox",
+      "id": "card_layout",
+      "default": true,
+      "label": "Cards layout"
+    },
+    {
+      "type": "checkbox",
       "id": "enable_desktop_slider",
       "label": "t:sections.featured-collection.settings.enable_desktop_slider.label",
       "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "page_width_slider",
+      "label": "Page width slider",
+      "default": true
     },
     {
       "type": "select",

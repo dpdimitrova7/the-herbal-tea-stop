@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="{{ 'component-mega-menu.css' | asset_url }}" media="print" onload="this.media='all'">
   <noscript>{{ 'component-mega-menu.css' | asset_url | stylesheet_tag }}</noscript>
 {%- endif -%}
+{%- if section.settings.vertical_desktop_layout -%}
+  <link rel="stylesheet" href="{{ 'component-vertical-desktop-layout.css' | asset_url }}" media="print" onload="this.media='all'">
+  <noscript>{{ 'component-vertical-desktop-layout.css' | asset_url | stylesheet_tag }}</noscript>
+{%- endif -%}
 {%- if settings.cart_type == "drawer" -%}
   {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
   {{ 'component-cart.css' | asset_url | stylesheet_tag }}
@@ -840,6 +844,12 @@
       "id": "menu",
       "default": "main-menu",
       "label": "t:sections.header.settings.menu.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "vertical_desktop_layout",
+      "default": true,
+      "label": "Vertical desktop layout"
     },
     {
       "type": "select",
