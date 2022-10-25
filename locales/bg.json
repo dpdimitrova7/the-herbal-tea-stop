@@ -101,7 +101,8 @@
         "postcode_label": "Пощенски код",
         "postcode_placeholder": "Пощенски код",
         "pincode_label": "ПИН код",
-        "pincode_placeholder": "ПИН код"
+        "pincode_placeholder": "ПИН код",
+        "civic_number_warning": "Добавете номер на къща, ако имате такъв"
       },
       "order_summary": {
         "product_change_label": "промяна",
@@ -139,7 +140,65 @@
           "due_on_fulfillment": "Общо дължимо при изпълнение",
           "due_later_checkout_to_draft": "Общо дължимо по-късно"
         },
-        "maximum_discount_code_limit_reached": "Достигнахте максималния брой кодове за отстъпка. Премахнете съществуващ код, за да използвате <strong style=\"text-transform:uppercase\">%{code}<\/strong> ."
+        "maximum_discount_code_limit_reached": "Достигнахте максималния брой кодове за отстъпка. Премахнете съществуващ код, за да използвате <strong style=\"text-transform:uppercase\">%{code}<\/strong> .",
+        "title": "Резюме на поръчката",
+        "order_name_label": "Поръчайте %{name}",
+        "shopping_cart_label": "Карта за пазаруване",
+        "discount_title": "Отстъпка",
+        "discount_label": "Код за отстъпка",
+        "discount_placeholder": "Код за отстъпка",
+        "gift_card_title": "Карта за подарък",
+        "gift_card_label": "Карта за подарък",
+        "gift_card_placeholder": "Карта за подарък",
+        "gift_card_and_discount_title": "Подаръчна карта или код за отстъпка",
+        "gift_card_and_discount_label": "Подаръчна карта или код за отстъпка",
+        "gift_card_and_discount_placeholder": "Подаръчна карта или код за отстъпка",
+        "remove_gift_card_label": "Ясна карта за подарък",
+        "remove_discount_label": "Премахване на отстъпката",
+        "free_shipping_discount_label": "Безплатна доставка",
+        "applied_free_shipping_discount_label": "Приложено",
+        "apply_discount_button_label": "Приложи",
+        "applied_discount_message": "%{amount} от общата цена на поръчката",
+        "discount_has_been_applied": "Отстъпката е приложена",
+        "discount_has_been_removed": "Отстъпката е премахната",
+        "gift_card_has_been_applied": "Подаръчната карта е приложена",
+        "gift_card_has_been_removed": "Картата за подарък е премахната",
+        "gift_card_subscriptions_notice": "Подаръчните карти ще се прилагат само за първото ви плащане",
+        "discount_already_applied": "Към тази поръчка е приложена отстъпка. Не можете да добавите друга отстъпка.",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> кодът за отстъпка не е валиден за артикулите в количката ви",
+        "discount_requires_customer_notice": "Въведете информацията си за доставка, за да приложите кода за отстъпка <strong style=\"text-transform:uppercase\">%{code}<\/strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Кодът за отстъпка <strong style=\"text-transform:uppercase\">%{code}<\/strong> не е достъпен за вас в момента",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Кодът за отстъпка <strong style=\"text-transform:uppercase\">%{code}<\/strong> не е наличен за вашия адрес за доставка",
+        "customer_already_used_once_per_customer_discount_notice": "Кодът за отстъпка <strong style=\"text-transform:uppercase\">%{code}<\/strong> вече е използван",
+        "subtotal_label": "Междинна сума",
+        "shipping_label": "Доставка",
+        "pickup_label": "Вдигни",
+        "no_pickup_location": "Вашата поръчка не е достъпна за получаване. Въведете адрес за доставка.",
+        "tip_label": "Бакшиш",
+        "calculating_shipping": "Изчислява се...",
+        "shipping_default_value": "Изчислено на следващата стъпка",
+        "shipping_pending_value": "—",
+        "shipping_pending_message": "Все още не е наличен",
+        "shipping_policy_link": "Транспортни разходи",
+        "taxes_label": "Данъци",
+        "estimated_taxes_label": "Приблизителни данъци",
+        "information_estimated_taxes_label": "Данъци (приблизително)",
+        "estimated_taxes_finalization_tooltip_content": "Окончателният данък и общата сума ще бъдат потвърдени по имейл или текстово съобщение, след като направите поръчката си.",
+        "order_total_label": "Обща стойност на поръчката",
+        "total_label": "Обща сума",
+        "total_outstanding_label": "Сума за плащане",
+        "partial_total_label": "Обща сума",
+        "free_total_label": "Безплатно",
+        "paid_label": "Платено",
+        "payment_due_label": "Платежни задължения",
+        "vat_label_html": "Включително %{amount} в данъци",
+        "discount_and_gift_card_savings_notice": "След %{discount_amount} в отстъпки и %{gift_card_amount} в подаръчни карти",
+        "discount_savings_notice": "След %{discount_amount} отстъпки",
+        "gift_card_savings_notice": "След %{gift_card_amount} в карти за подарък",
+        "cost_table_title": "Резюме на разходите",
+        "description_label": "Описание",
+        "price_label": "Цена",
+        "quantity_label": "Количество"
       },
       "shipping": {
         "title": "Доставка",
@@ -514,6 +573,61 @@
           "generic_error": "Възникна проблем при обработката на вашата заявка.",
           "success_message": "Вашият метод на плащане е изтрит успешно"
         }
+      },
+      "delivery_options": {
+        "free_total_label": "Безплатно",
+        "ship": "Кораб",
+        "shipping_address": "Адрес за доставка",
+        "pick_up": "Вдигни",
+        "pick_up_locations": "Места за получаване",
+        "pick_up_in_one_hour": "Обикновено е готов за 1 час",
+        "pick_up_in_two_hours": "Обикновено е готов за 2 часа",
+        "pick_up_in_four_hours": "Обикновено е готов за 4 часа",
+        "pick_up_in_twenty_four_hours": "Обикновено е готов за 24 часа",
+        "pick_up_in_two_to_four_days": "Обикновено е готов за 2-4 дни",
+        "pick_up_in_five_or_more_days": "Обикновено готов за 5+ дни",
+        "pick_up_in_zero_to_two_hours": "Готов за вземане след 2 часа",
+        "pick_up_in_two_to_four_hours": "Готов за вземане след 4 часа",
+        "pick_up_immediately": "Готов за вземане сега",
+        "pick_up_next_day": "Готов за вземане на следващия ден"
+      },
+      "customer_account": {
+        "not_user_label": "Не сте %{first_name}?",
+        "have_an_account_label": "Вече имате акаунт?",
+        "sign_in_link_label": "Влизам",
+        "sign_out_link_label": "Излез от профила си",
+        "save_my_information_label": "Запазете тази информация за следващия път"
+      },
+      "stock": {
+        "page_title": "Проблеми с инвентара",
+        "title": "Изчерпано количество",
+        "items_unavailable_notice": "Някои артикули вече не са налични. Вашата количка е актуализирана.",
+        "product_column_header": "Продукти",
+        "quantity_column_header": "Количество",
+        "price_column_header": "Цена",
+        "status_column_header": "Статус",
+        "removed_from_cart_notice": "Премахнато от количката",
+        "sold_out_label": "Продадено",
+        "reduced_label": "Намалена",
+        "reduced_with_quantity_label": "Остават само %{quantity_available}",
+        "remove_from_cart_button_label": "Премахване от количката",
+        "continue_shopping_button_label": "продължи",
+        "go_back_to_cart_button_label": "Върни се в количката ми"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Продуктът не е наличен",
+          "other": "Продуктите не са налични"
+        },
+        "products_not_available": {
+          "one": "Този продукт ще бъде премахнат от вашата количка, защото не е наличен във вашата държава\/регион.",
+          "other": "Тези продукти ще бъдат премахнати от вашата количка, защото не са налични във вашата държава\/регион."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Този продукт не се предлага във вашата страна\/регион.",
+          "other": "Тези продукти не се предлагат във вашата страна\/регион."
+        },
+        "unavailable_label": "Недостъпен"
       }
     },
     "pagination": {
