@@ -611,6 +611,45 @@
       "customer": {
         "password_reset_error": "Грешка при повторно задаване на парола"
       }
+    },
+    "page_titles": {
+      "order": "Поръчайте %{name}",
+      "search": "Търсене",
+      "search_results": {
+        "one": "Търсене: %{count} резултат намерен за „%{terms}“",
+        "other": "Търсене: %{count} резултата намерени за „%{terms}“"
+      },
+      "collections": "Колекции",
+      "not_found": "404 Страницата не е намерена",
+      "challenge": "Предизвикателство",
+      "checkpoint": "КПП"
+    },
+    "cart": {
+      "discounts_with_count": "Приложени са %{count} отстъпки"
+    },
+    "challenge": {
+      "message": "За да продължите, уведомете ни, че не сте робот.",
+      "error": "Вашият отговор не беше правилен, моля, опитайте отново.",
+      "submit_button_text": "Изпращане"
+    },
+    "checkpoint": {
+      "message": "Решете Captcha, за да продължите",
+      "error": "Проверката на Captcha не бе успешна",
+      "submit_button_text": "Изпращане"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Обикновено е готов за 1 час",
+        "two_hours": "Обикновено е готов за 2 часа",
+        "four_hours": "Обикновено е готов за 4 часа",
+        "twenty_four_hours": "Обикновено е готов за 24 часа",
+        "two_to_four_days": "Обикновено е готов за 2-4 дни",
+        "five_or_more_days": "Обикновено готов за 5+ дни",
+        "zero_to_two_hours": "Обикновено е готов за 2 часа",
+        "two_to_four_hours": "Обикновено е готов за 4 часа",
+        "immediately": "Готов за вземане сега",
+        "next_day": "Готов за вземане на следващия ден"
+      }
     }
   },
   "customer_accounts": {
@@ -618,7 +657,12 @@
       "order_list": {
         "pagination": {
           "load_more": "Зареди още",
-          "load_more_accessibility_label": "Заредете още поръчки"
+          "load_more_accessibility_label": "Заредете още поръчки",
+          "nav_accessibility_label": "Бутони за навигация на поръчки",
+          "next": "Следващия",
+          "next_accessibility_label": "Следващи поръчки",
+          "previous": "предишна",
+          "previous_accessibility_label": "Предишни поръчки"
         },
         "payment_status": {
           "list_view": {
@@ -664,7 +708,38 @@
             "descending": "Обща сума на поръчката (високо към ниско)"
           }
         },
-        "table_view": "Показване на табличен изглед"
+        "table_view": "Показване на табличен изглед",
+        "column_headers": {
+          "delivery_date": "Дата на доставка",
+          "items": "Предмети",
+          "order_date": "Дата на поръчка",
+          "order_number": "Номер на поръчка",
+          "status": "Статус на поръчката",
+          "payment_status": "Статус на плащането",
+          "total": "Обща сума"
+        },
+        "delivered": "Доставено {{date}}",
+        "empty_state_order_source_description": "Тук ще се показват само поръчки, направени от {{email}} .",
+        "empty_state_subtitle": "Отидете до магазина, за да направите поръчка.",
+        "empty_state_title": "Все още няма поръчки",
+        "estimated": "Очаквано {{date}}",
+        "estimated_shortform": "Прогн. {{date}}",
+        "estimated_delivery": "Очаквана доставка {{date}}",
+        "one_images_accessibility_label": "Поръчката включва {{lineItemName1}}",
+        "two_images_accessibility_label": "Поръчката включва {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "Поръчката включва {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "Поръчката включва {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "items": {
+          "one": "{{count}} елемент",
+          "other": "{{count}} елемента"
+        },
+        "list_view": "Показване на списъчен изглед",
+        "multiple_shipments": "Множество пратки",
+        "no_filtered_results_description": "Премахнете или коригирайте филтрите, за да видите вашите поръчки",
+        "no_filtered_results_title": "Няма филтрирани резултати",
+        "order_link": "Вижте поръчка {{name}}",
+        "order_number": "Поръчайте {{name}}",
+        "orders_title": "Потвърдено"
       },
       "order_status": {
         "attempted_delivery_label": "Опит за доставка",
@@ -704,7 +779,9 @@
         "request_return": "Поискайте връщане"
       },
       "status_mark_as_delivered": "Маркирайте като доставено",
-      "status_title": "Статус на поръчката"
+      "status_title": "Статус на поръчката",
+      "list_layout_accessibility_label": "Опции за оформление",
+      "list_title": "Поръчки"
     },
     "order_details": {
       "shipment_timeline": {
@@ -748,6 +825,63 @@
         "address_map_marker": "Адрес за доставка",
         "method": "Начин на доставка",
         "summary": "Доставка"
+      }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Скриване на менюто за акаунт",
+        "label": "Сметка",
+        "show_accessibility_label": "Показване на менюто на акаунта"
+      },
+      "action_menu_accessibility_label": "Повече действия",
+      "close_menu_accessibility_label": "Затворете основната навигация",
+      "contact_email_subject": "Контакт от онлайн магазин {{shopName}}",
+      "contact_link": "Свържете се с нас",
+      "delete_confirmation": {
+        "cancel": "Отказ",
+        "delete": "Изтрий"
+      },
+      "dismiss_toast": "Отхвърляне",
+      "document_title": "{{sectionName}} - {{shopName}} - Акаунт",
+      "go_to_store_link": "Отидете до магазина",
+      "loading_message": "Зареждане",
+      "log_out_link": "Излез от профила си",
+      "login_prompt": {
+        "continue": "продължи",
+        "privacy": "поверителност",
+        "title": "Продължете с влизането"
+      },
+      "logout_overlay_label": "Излизам ви...",
+      "nav_label_accessibility_label": "Основна навигация",
+      "navigation_accessibility_message": "Навигирахте до {{sectionName}}",
+      "open_menu_accessibility_label": "Отворете основната навигация",
+      "orders_link_label": "Поръчки",
+      "shop_logo_accessibility_label": "Лого {{shopName}}"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Информацията за акаунта се зарежда",
+      "loading_finished_accessibility_message": "Информацията за акаунта е заредена",
+      "profile_card": {
+        "cancel": "Отказ",
+        "cancel_accessibility_label": "Отказ от редактиране на профил",
+        "edit": "редактиране",
+        "edit_accessibility_label": "Редактирай профил",
+        "email_help_text": "Имейлът, използван за влизане, не може да бъде променян",
+        "first_name": "Първо име",
+        "last_name": "Фамилия",
+        "phone_number_help_text": "Телефонният номер, използван за влизане, не може да бъде променян",
+        "save": "Запазване",
+        "save_accessibility_label": "Запази профил",
+        "title": "Профил"
+      },
+      "profile_update_confirmation_message": "Профилът е актуализиран",
+      "title": "Информация за профила",
+      "people": {
+        "pagination": {
+          "load_more": "Зареди още",
+          "load_more_accessibility_label": "Заредете повече хора",
+          "loading_accessibility_label": "Зареждане на хора"
+        }
       }
     }
   },
