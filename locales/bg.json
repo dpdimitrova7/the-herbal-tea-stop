@@ -506,5 +506,251 @@
         "password_reset_error": "Грешка при повторно задаване на парола"
       }
     }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_list": {
+        "pagination": {
+          "load_more": "Зареди още",
+          "load_more_accessibility_label": "Заредете още поръчки"
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Просрочено плащане",
+            "due": "Падеж на плащане {{date}}",
+            "due_today": "Плащането се дължи днес",
+            "due_without_date": "Платежни задължения",
+            "due_on_fulfillment": "Плащане при изпълнение",
+            "pay_to_confirm": "Платете за потвърждение",
+            "payment_not_due": "Плащането все още не е дължимо"
+          },
+          "table_view": {
+            "overdue": "Просрочени",
+            "due": "Краен {{date}}",
+            "due_today": "Срок днес",
+            "paid": "Платено",
+            "due_without_date": "В следствие",
+            "due_on_fulfillment": "Подлежи на изпълнение",
+            "pay_to_confirm": "Платете за потвърждение",
+            "payment_not_due": "Все още не е падеж"
+          }
+        },
+        "sort_by": "Сортиране по: {{option}}",
+        "sort_hide_options_accessibility_label": "Скриване на опциите за сортиране за потвърдени поръчки.",
+        "sort_show_options_accessibility_label": "Показване на опции за сортиране за потвърдени поръчки.",
+        "sort_currently_sorted_by_accessibility_label": "В момента сортирани по: {{option}}",
+        "sort_title": "Вид",
+        "sort": {
+          "date": {
+            "newest": "Най-новите към най-старите",
+            "oldest": "Най-старите към най-новите"
+          },
+          "location": {
+            "ascending": "Местоположение (AZ)",
+            "descending": "Местоположение (ZA)"
+          },
+          "order_number": {
+            "ascending": "Номер на поръчката (нисък към висок)",
+            "descending": "Номер на поръчката (висок към нисък)"
+          },
+          "order_total": {
+            "ascending": "Обща сума на поръчката (от ниска към висока)",
+            "descending": "Обща сума на поръчката (високо към ниско)"
+          }
+        },
+        "table_view": "Показване на табличен изглед"
+      },
+      "order_status": {
+        "attempted_delivery_label": "Опит за доставка",
+        "attempted_delivery_description": "Опитът за доставка беше неуспешен.",
+        "confirmed_description": "Получихме вашата поръчка.",
+        "on_its_way_description": "Тази пратка е на път.",
+        "out_for_delivery_description": "Тази пратка е готова за доставка.",
+        "preparing_for_shipping_label": "Подготовка за изпращане",
+        "preparing_for_shipping_description": "Тези артикули се подготвят за изпращане.",
+        "ready_for_pickup_label": "Готов за прибиране",
+        "ready_for_pickup_description": "Тези артикули са готови за получаване.",
+        "picked_up_label": "Вдигнати",
+        "picked_up_description": "Тези артикули са взети.",
+        "canceled_description": "Вашата поръчка беше анулирана на {{date}} .",
+        "canceled_label": "Отменен",
+        "canceled_title": "Вашата поръчка е анулирана",
+        "come_back": "Върнете се на тази страница за актуализации относно състоянието на вашата пратка.",
+        "company_tracking_number": "Номер за проследяване на {{company}} :",
+        "confirmed_label": "Потвърдено",
+        "confirmed_title": "Вашата поръчка е потвърдена",
+        "delivered_description": "Тази пратка е доставена.",
+        "delivered_label": "Доставено",
+        "delivered_title": "Вашата пратка е доставена",
+        "estimated_delivery": "Очаквана доставка {{date}}",
+        "in_review_description": "Ще ви уведомим, ако имаме нужда от повече информация или когато поръчката ви бъде потвърдена.",
+        "in_review_label": "В Преглед",
+        "in_review_title": "Вашата поръчка се преглежда",
+        "no_tracking_number": "Няма номер за проследяване на тази пратка.",
+        "on_its_way_label": "На път",
+        "on_its_way_title": "Вашата пратка е на път",
+        "out_for_delivery_label": "За доставка",
+        "out_for_delivery_title": "Вашата пратка е готова за доставка",
+        "resume_tracking": "Възобновете проследяването",
+        "submitted_label": "Изпратено",
+        "submitted_description": "Прегледайте данните за поръчката и плащането.",
+        "track_shipment": "Проследяване на пратката",
+        "request_return": "Поискайте връщане"
+      },
+      "status_mark_as_delivered": "Маркирайте като доставено",
+      "status_title": "Статус на поръчката"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "Покажи детайли",
+        "expand_events_accessibility_label": "Показване на подробности за пратката на поръчката",
+        "hide_events_label": "Скриване на подробности",
+        "hide_events_accessibility_label": "Скриване на подробностите за пратката на поръчката"
+      },
+      "addresses_section_title": "Таксуване и доставка",
+      "billing_address": "Адрес на плащане",
+      "card_ending_with": "завършващ на {{lastDigits}}",
+      "contact": "Контакт",
+      "fully_refunded_label": "ВЪЗСТАНОВЕНО",
+      "discount": "Отстъпка",
+      "hide_items": "Скриване на елементи",
+      "loading": "Зареждат се подробности за поръчката",
+      "loading_finished_accessibility_message": "Данните за поръчката са заредени",
+      "location": "Местоположение",
+      "mobile_summary_toggle_button": {
+        "open": "Показване на резюмето на поръчката",
+        "closed": "Скриване на резюмето на поръчката"
+      },
+      "no_data": "Нито един",
+      "not_applicable": "N\/A",
+      "partially_refunded_label": "ЧАСТИЧНО ВЪЗСТАНОВЕНО",
+      "payment": {
+        "status_in_review": "Плащане след преглед",
+        "status_unpaid": "Плащането се дължи на {{date}}",
+        "title": "Плащане"
+      },
+      "refunded_amount": "Възстановена сума",
+      "request_return_failed": "Възникна проблем при обработката на вашата заявка. Моля, опитайте отново.",
+      "returns": {
+        "expand_events_label": "Покажи детайли",
+        "hide_events_label": "Скриване на подробности",
+        "print_shipping_label": "Отпечатайте етикет за доставка",
+        "tracking_number": "Номер за проследяване:"
+      },
+      "shipping": {
+        "address": "Адрес за доставка",
+        "address_map_marker": "Адрес за доставка",
+        "method": "Начин на доставка",
+        "summary": "Доставка"
+      }
+    }
+  },
+  "customer": {
+    "addresses": {
+      "default": "По подразбиране",
+      "add_new": "Добавете нов адрес",
+      "edit_address": "Редактиране на адреса",
+      "first_name": "Първо име",
+      "last_name": "Фамилия",
+      "company": "Търговско дружество",
+      "address1": "Адрес 1",
+      "address2": "Адрес 2",
+      "city": "град",
+      "country": "Държавен регион",
+      "province": "Провинция",
+      "zip": "Пощенски код",
+      "phone": "Телефон",
+      "set_default": "Задайте като адрес по подразбиране",
+      "add": "Добавете адрес",
+      "update": "Актуализирайте адреса",
+      "cancel": "Отказ",
+      "edit": "редактиране",
+      "delete": "Изтрий",
+      "delete_confirm": "Сигурни ли сте, че искате да изтриете този адрес?"
+    },
+    "log_in": "Влизам",
+    "log_out": "Излез от профила си",
+    "login_page": {
+      "cancel": "Отказ",
+      "create_account": "Създай акаунт",
+      "email": "електронна поща",
+      "forgot_password": "Забравена парола?",
+      "guest_continue": "продължи",
+      "guest_title": "Продължете като гост",
+      "password": "Парола",
+      "title": "Влизам",
+      "sign_in": "Впиши се",
+      "submit": "Изпращане"
+    },
+    "order": {
+      "title": "Поръчай {{ name }}",
+      "date_html": "Поставено на {{ date }}",
+      "cancelled_html": "Поръчката е анулирана на {{ date }}",
+      "cancelled_reason": "Причина: {{ reason }}",
+      "billing_address": "адрес на плащане",
+      "payment_status": "Статус на плащането",
+      "shipping_address": "Адрес за доставка",
+      "fulfillment_status": "Статус на изпълнение",
+      "discount": "Отстъпка",
+      "shipping": "Доставка",
+      "tax": "Данък",
+      "product": "Продукт",
+      "sku": "SKU",
+      "price": "Цена",
+      "quantity": "Количество",
+      "total": "Обща сума",
+      "fulfilled_at_html": "Изпълнено {{ date }}",
+      "track_shipment": "Проследяване на пратката",
+      "tracking_url": "Връзка за проследяване",
+      "tracking_company": "Превозвач",
+      "tracking_number": "Номер за проследяване",
+      "subtotal": "Междинна сума",
+      "total_duties": "Задължения"
+    },
+    "orders": {
+      "title": "История на поръчките",
+      "order_number": "Поръчка",
+      "order_number_link": "Номер на поръчка {{ number }}",
+      "date": "Дата",
+      "payment_status": "Статус на плащането",
+      "fulfillment_status": "Състояние на изпълнение",
+      "total": "Обща сума",
+      "none": "Все още не сте направили никакви поръчки."
+    },
+    "recover_password": {
+      "title": "Променете паролата си",
+      "subtext": "Ще ви изпратим имейл, за да нулирате паролата си",
+      "success": "Изпратихме ви имейл с връзка за актуализиране на вашата парола."
+    },
+    "register": {
+      "title": "Създай акаунт",
+      "first_name": "Първо име",
+      "last_name": "Фамилия",
+      "email": "електронна поща",
+      "password": "Парола",
+      "submit": "Създавайте"
+    },
+    "reset_password": {
+      "title": "Нулирайте паролата на акаунта",
+      "subtext": "Въведете нова парола",
+      "password": "Парола",
+      "password_confirm": "Потвърди парола",
+      "submit": "Нулирайте паролата"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Ето вашата карта за подарък {{ value }} за {{ shop }} !",
+      "subtext": "Вашата карта за подарък",
+      "gift_card_code": "Код на подаръчна карта",
+      "shop_link": "Продължи пазаруването",
+      "remaining_html": "Оставащи {{ balance }}",
+      "add_to_apple_wallet": "Добавете към Apple Wallet",
+      "qr_image_alt": "QR код — сканирайте, за да осребрите подаръчна карта",
+      "copy_code": "Копирайте кода",
+      "expired": "Просрочен",
+      "copy_code_success": "Кодът е копиран успешно",
+      "print_gift_card": "Печат"
+    }
   }
 }
