@@ -521,7 +521,15 @@
         "deferred_amount_changed": "Вашето плащане не може да бъде обработено, тъй като сумата на отложеното плащане се е променила. Моля, проверете поръчката си и опитайте отново."
       },
       "tips": {
-        "no_tip_label": "Нито един"
+        "no_tip_label": "Нито един",
+        "title": "Добавете съвет",
+        "description": "Покажете подкрепата си за екипа на %{shop_name}",
+        "presets_description": "Изберете процент на бакшиш",
+        "custom_label": "Персонализиран съвет",
+        "add_tip": "Добавете съвет",
+        "update_tip": "Съвет за актуализиране",
+        "message": "Благодарим ви, ние го оценяваме",
+        "preset_label": "%{tip_percent}%"
       },
       "open_graph_meta_tag": {
         "title_with_products": {
@@ -628,6 +636,146 @@
           "other": "Тези продукти не се предлагат във вашата страна\/регион."
         },
         "unavailable_label": "Недостъпен"
+      },
+      "thank_you": {
+        "track_shipment": "Проследяване на пратката",
+        "shopify_pay": {
+          "order_completed_html": "Поръчката е завършена с %{shopify_pay}",
+          "learn_more_label": "Научете повече за Shop Pay"
+        },
+        "other_options": "Други възможности",
+        "delivery_information_label": "Информация за доставка:",
+        "gift_card_sent_confirmation": "Изпратени подаръчни карти",
+        "qr_code": {
+          "send_link_to_phone": "Или изпратете линк на телефона си",
+          "title": "Проследяване на вашия телефон",
+          "subtitle": "Сканирайте кода с камерата на телефона си, за да го проследите с Shop."
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Сканирайте с телефона си",
+            "description": "Shop ще ви изпраща актуализации за доставка в реално време, след като поръчката ви бъде изпратена."
+          },
+          "sms": {
+            "title": "Или изпратете линк на телефона си"
+          }
+        },
+        "view_business_customer_account": "Преглед на акаунта",
+        "breadcrumbs_submitted": "Изпратено",
+        "breadcrumbs_in_review": "В Преглед",
+        "breadcrumbs_confirmed": "Потвърдено",
+        "missing_shipping_address_banner": {
+          "title": "Липсва адрес за доставка",
+          "text_html": "%{contact_us} с вашия адрес за доставка, за да завършите тази поръчка."
+        },
+        "first_payment_complete": "Първото плащане е завършено",
+        "in_store_purchase": "Покупка в магазина"
+      },
+      "review": {
+        "title": "Преглед",
+        "review_title": "Преглед на поръчката",
+        "checkout_as_guest": "Плащане като гост",
+        "blocks": {
+          "contact_method_title": "Контакт",
+          "billing_address_title": "Таксуване",
+          "shipping_address_title": "Изпратете до",
+          "shipping_method_title": "Метод",
+          "payment_method_title": "Плащане",
+          "change_link_label": "промяна",
+          "change_contact_method_link_label": "Променете информацията за контакт",
+          "change_billing_address_link_label": "Променете адреса за фактуриране",
+          "change_shipping_address_link_label": "Промяна на адреса за доставка",
+          "change_shipping_method_link_label": "Промяна на метода на доставка",
+          "change_payment_method_link_label": "Променете метода на плащане",
+          "pick_up_in_store_shipping_method_html": "Вземете от магазин · %{location_name}"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Пишете ми с новини и оферти",
+        "post_accept_marketing_checkbox_label": "Вие сте абонирани да получавате имейл новини и оферти",
+        "pending_accept_marketing_checkbox_label": "Проверете имейла си, за да потвърдите абонамента си за новини и оферти",
+        "accept_sms_checkbox_label": "Пишете ми с новини и оферти",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Политика за поверителност",
+            "terms_of_service": "Условия за ползване",
+            "description_html": "Като се регистрирате чрез текстово съобщение, вие се съгласявате да получавате повтарящи се автоматизирани маркетингови съобщения, включително напомняния за количката, на предоставения телефонен номер. Съгласието не е условие за покупка. Отговорете СТОП, за да се отпишете. Отговорете HELP за помощ. Честотата на съобщенията варира. Може да се прилагат такси за съобщения и данни. Вижте нашите %{privacy_policy_link} и %{terms_of_service_link}.",
+            "description_transactional_html": "Ще ви изпратим разписка за поръчка и периодични актуализации за доставка чрез текстово съобщение. Отговорете СТОП, за да се отпишете. Отговорете HELP за помощ. Честотата на съобщенията варира. Може да се прилагат такси за съобщения и данни. Вижте нашите %{privacy_policy_modal_link} и %{terms_of_service_modal_link}."
+          }
+        },
+        "unsubscribe": {
+          "title": "Отписахте се",
+          "description": "Няма да получавате повече напомняния за количката от нас."
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Политика за възстановяване на средства",
+        "privacy_policy": "Политика за поверителност",
+        "terms_of_service": "Условия за ползване",
+        "legal_notice": "Правна информация",
+        "shipping_policy": "Политика за доставка",
+        "terms_of_sale": "Условия за продажба",
+        "subscription_policy": "Абонаментна политика",
+        "purchase_options_policy": "Политика за опции за покупка",
+        "contact_information": "Информация за връзка"
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Правила и условия на регистриран търговец",
+        "privacy_policy": "Политика за поверителност на регистриран търговец"
+      },
+      "remember_me": {
+        "shopify_pay_label": "Магазин Pay",
+        "save": "Запазване",
+        "title": "Помни ме",
+        "label": "Запазете моята информация за по-бързо плащане",
+        "description_html": "Следващият път, когато плащате тук или в други магазини, поддържани от Shopify, ще получите код чрез текстово съобщение за безопасно пазаруване с Shop Pay.",
+        "mobile_phone_icon_alt": "Мобилен телефон",
+        "mobile_phone_number": "Номер на мобилен телефон",
+        "terms_and_privacy_html": "Продължавайки, вие се съгласявате с %{privacy_href} и %{terms_href} на Shop Pay.",
+        "external_acessibility_label": "(отваря нов прозорец)",
+        "privacy_policy": "Политика за поверителност",
+        "terms_of_service": "Условия за ползване",
+        "errors": {
+          "optin": "Shop Pay не е наличен"
+        },
+        "installments": {
+          "paid_in_installments": "Плаща се на вноски с Shop Pay.",
+          "view_schedule": "Преглед на графика"
+        },
+        "title_with_logo_html": "Запомни ме с %{shopify_pay}",
+        "label_address_payment_and_faster_checkouts": "Нека Shop Pay попълни моя адрес и информация за плащане за по-бързо плащане.",
+        "label_faster_checkouts_and_thousand_shops": "Запазете моята информация с Shop Pay за по-бързо плащане в над милион магазина."
+      },
+      "notifications": {
+        "title": "Известия"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Сума за плащане за поръчка %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Добавено",
+            "other": "%{count} добавени"
+          },
+          "removed": "Премахнато",
+          "subtracted": "%{count} премахнати"
+        },
+        "additional_payment_requested": "Необходимо е плащане от %{total_outstanding}",
+        "checkout_review_and_pay": "Вашата поръчка %{order_name} бе актуализирана. Прегледайте тези промени, след което платете, за да потвърдите поръчката си.",
+        "order_updated_on": "Вашата поръчка беше актуализирана на %{last_edited_at}.",
+        "order_review_and_pay": "Вашата поръчка беше актуализирана. Прегледайте и платете, за да потвърдите поръчката си.",
+        "pay_now": "Плати сега"
+      },
+      "change_currency": {
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "credit_card_will_be_charged_html": "Вашата кредитна карта ще бъде таксувана %{amount}",
+        "payment_total_label": "Общо плащане",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "change_currency_link": "Промяна на %{currency_name}",
+        "card_provider_fx_charges_warning": "Доставчикът на вашата карта може да начислява такси за %{currency_code} транзакции.",
+        "currency_not_supported_by_shop": "Избраната от вас валута вече не е налична. Всички цени вече са в %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Вашата количка е актуализирана въз основа на вашата държава за доставка."
       }
     },
     "pagination": {
