@@ -1,0 +1,510 @@
+{
+  "shopify": {
+    "sentence": {
+      "words_connector": ",",
+      "two_words_connector": "и",
+      "last_word_connector": ", и"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Разгледайте",
+        "error_page_title": "Грешка",
+        "skip_to_content": "Преминете към съдържанието",
+        "breadcrumb": "галета",
+        "continue_button_label": "продължи",
+        "complete_purchase_button_label": "Пълна поръчка",
+        "pay_now_button_label": "Плати сега",
+        "authenticate_purchase_button_label": "Удостоверете плащането",
+        "edit_link_label": "редактиране",
+        "all_rights_reserved": "Всички права запазени %{shop_name}",
+        "print_policies_link_label": "Печат",
+        "cart": "Количка",
+        "close_modal_label": "Близо",
+        "close_notice_label": "Близо",
+        "expand_notice_label": "Виж повече",
+        "continue_to_shipping_method": "Продължете към доставката",
+        "continue_to_payment_method": "Продължете към плащане",
+        "continue_to_review": "Преглед на поръчката",
+        "back_to_cart": "Върнете се в количката",
+        "back_to_contact_information": "Връщане към информацията",
+        "back_to_shipping_method": "Връщане към доставката",
+        "back_to_payment_method": "Връщане към плащането",
+        "choose_shipping_method": "Изберете начин на доставка",
+        "choose_payment_method": "Изберете начин на плащане",
+        "choose_billing_address": "Изберете адрес за фактуриране",
+        "contact_us_html": "Свържете се с нас за повече информация",
+        "autocomplete_title": "Предложения",
+        "autocomplete_single_item": "Наличен 1 артикул",
+        "autocomplete_multi_item": "Налични {{number}} артикула",
+        "autocomplete_close": "Затворете предложенията",
+        "forwarding_indicator": {
+          "new_window": "Отваря се в нов прозорец.",
+          "external": "Отваря външен уебсайт.",
+          "external_and_new_window": "Отваря външен уебсайт в нов прозорец."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} – Плащане"
+        },
+        "tooltip_accessibility_label": "Повече информация",
+        "errors": {
+          "session_identifier_not_unique_error": "Нещо се обърка с поръчката ви, моля, опитайте да проверите отново."
+        }
+      },
+      "contact": {
+        "title": "Информация",
+        "address_title": "Адрес",
+        "shipping_address_title": "Адрес за доставка",
+        "delivery_option_title": "Начин на доставка",
+        "contact_method_title": "Информация за връзка",
+        "email_label": "електронна поща",
+        "email_placeholder": "електронна поща",
+        "email_or_phone_label": "Имейл или номер на мобилен телефон",
+        "email_or_phone_placeholder": "Имейл или номер на мобилен телефон",
+        "stored_addresses_label": "Запазени адреси",
+        "new_address_label": "Използвайте нов адрес",
+        "first_name_label": "Първо име",
+        "optional_first_name_label": "Име (по избор)",
+        "last_name_label": "Фамилия",
+        "company_label": "Търговско дружество",
+        "optional_company_label": "Фирма (по избор)",
+        "address1_label": "Адрес",
+        "address2_label": "Апартамент, апартамент и др.",
+        "optional_address2_label": "Апартамент, апартамент и др. (по избор)",
+        "city_label": "град",
+        "country_label": "Държавен регион",
+        "country_code": "Код на държава\/регион",
+        "province_label": "Провинция",
+        "province_placeholder": "Провинция",
+        "county_label": "окръг",
+        "county_placeholder": "окръг",
+        "state_label": "състояние",
+        "state_placeholder": "състояние",
+        "region_label": "Регион",
+        "region_placeholder": "Регион",
+        "region_none": "Няма избрани",
+        "prefecture_label": "Префектура",
+        "prefecture_placeholder": "Префектура",
+        "governorate_label": "Губернаторство",
+        "governorate_placeholder": "Губернаторство",
+        "emirate_label": "Емирство",
+        "emirate_placeholder": "Емирство",
+        "state_and_territory_label": "Държава\/територия",
+        "state_and_territory_placeholder": "Държава\/територия",
+        "phone_label": "Телефон",
+        "optional_phone_label": "телефон (по избор)",
+        "phone_placeholder": "Телефон",
+        "phone_tooltip": "В случай, че трябва да се свържем с вас относно вашата поръчка",
+        "zip_code_label": "пощенски код",
+        "zip_code_placeholder": "пощенски код",
+        "postal_code_label": "Пощенски код",
+        "postal_code_placeholder": "Пощенски код",
+        "postcode_label": "Пощенски код",
+        "postcode_placeholder": "Пощенски код",
+        "pincode_label": "ПИН код",
+        "pincode_placeholder": "ПИН код"
+      },
+      "order_summary": {
+        "product_change_label": "промяна",
+        "product_image_label": "Изображение на продукта",
+        "scroll_order_summary": "Превъртете за още елементи",
+        "expand_order_summary": "Показване на резюмето на поръчката",
+        "collapse_order_summary": "Скриване на резюмето на поръчката",
+        "original_price": "Оригинална цена",
+        "sale_price": "Продажна цена",
+        "total_updated_label": "Актуализирана обща цена:",
+        "order_total_updated_label": "Общо актуализирано",
+        "total_already_paid_label": "Вече платено",
+        "unit_price": {
+          "accessible_separator": "пер",
+          "content_html": "%{price}%{accessible_separator}%{per_unit}"
+        },
+        "gift_card_ending": "Карта за подарък, завършваща на %{last_characters}",
+        "estimated_tax_label": "Приблизителен данък",
+        "multiple_shipping_lines_label": "Обща доставка",
+        "recurring_total_label": "Повтаряща се сума",
+        "recurring_total_tooltip": "Не включва доставка, данък, мита или други приложими отстъпки.",
+        "confirmation_number_label": "Потвърждение #%{confirmation_number}",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> не може да се използва със съществуващите ви отстъпки. Вече имате по-добра комбинация.",
+        "percent_off_shipping": "%{percent}% отстъпка от доставката",
+        "amount_off_shipping": "%{amount} отстъпка от доставката",
+        "deferred_payment_info": {
+          "title": "Плащането на %{amount_due} се дължи на %{due_at}",
+          "description_html": "За въпроси относно вашата поръчка, %{contact_us}.",
+          "paid_today": "Общо платено днес",
+          "due_on_fulfillment_title": "Плащането на %{amount_due} се дължи при изпълнение"
+        },
+        "payment_terms_totals": {
+          "due_today": "Общо дължимо днес",
+          "due_later": "Общо дължимо %{due_at}",
+          "due_on_fulfillment": "Общо дължимо при изпълнение",
+          "due_later_checkout_to_draft": "Общо дължимо по-късно"
+        },
+        "maximum_discount_code_limit_reached": "Достигнахте максималния брой кодове за отстъпка. Премахнете съществуващ код, за да използвате <strong style=\"text-transform:uppercase\">%{code}<\/strong> ."
+      },
+      "shipping": {
+        "title": "Доставка",
+        "shipping_method_title": "Начин на доставка",
+        "shipping_method_one_time_purchase_group_title": "Еднократна покупка",
+        "shipping_method_subscription_group_title": "Абонамент",
+        "subscription_shipping": "Абонаментна доставка",
+        "subscription_local_delivery": "Абонаментна доставка на място",
+        "subscription_pickup": "Вземане на абонамент",
+        "waiting_on_rate_notice": "Получаване на налични цени за доставка...",
+        "waiting_on_pickup_location_notice": "Получават се налични места за вземане...",
+        "no_rates_for_cart_or_destination_notice": "Няма налични методи за доставка за вашата количка или адрес",
+        "no_pickup_location_notice": "Поне един от вашите продукти не е наличен за вземане",
+        "no_rates_for_country_notice": "Няма намерени тарифи за доставка за този адрес.",
+        "no_rates_contact_notice": "Свържете се с нас за повече информация",
+        "free_rate_label": "Безплатно",
+        "cheapest_rate_label": "Най-евтино",
+        "please_enter_your_shipping_information_notice": "Моля, въведете вашата информация за доставка.",
+        "estimated_delivery_date": {
+          "one": "%{count} работен ден",
+          "other": "%{count} работни дни"
+        },
+        "estimated_delivery_date_range": "%{minimum} до %{maximum} работни дни",
+        "delivery_date_range": "%{min_time}–%{max_time}",
+        "estimated_delivery_time": "Очаквано време за доставка}",
+        "estimated_delivery_time_range": "Очаквана доставка %{min_time}–%{max_time}",
+        "arrives_time": "Пристига %{time}",
+        "arrives_time_range": "Пристига %{min_time}–%{max_time}",
+        "estimated_time": "Очаквано време}",
+        "estimated_time_range": "Очаквано %{min_time}–%{max_time}",
+        "shipping_line_phone_label": "Номер на мобилен телефон (задължително)",
+        "shipping_line_phone": "Вашият куриер може да използва този номер, за да се свърже с вас.",
+        "shipping_line_delivery_phone_label": "Номер на мобилен телефон",
+        "shipping_line_delivery_phone": "Може да се свържем с вас за актуализации относно вашата доставка.",
+        "optional_shipping_line_delivery_instructions_label": "Инструкции за доставка (по избор)",
+        "shipping_line_delivery_instructions": "Въведете необходимата информация като кодове на вратите или инструкции за връщане.",
+        "other_method": {
+          "zero": "Няма други налични методи",
+          "one": "%{count} друг метод, наличен на",
+          "other": "%{count} други налични методи, започвайки от"
+        },
+        "shipping_rate_discounted_amount": "Беше: %{original_amount}. Сега: %{amount}",
+        "local_delivery": "Локална доставка",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "за %{count} доставка",
+            "other": "за %{count} доставки"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "всеки ден",
+              "other": "на всеки %{count} дни"
+            },
+            "week": {
+              "one": "всяка седмица",
+              "other": "на всеки %{count} седмици"
+            },
+            "month": {
+              "one": "всеки месец",
+              "other": "на всеки %{count} месеца"
+            },
+            "year": {
+              "one": "всяка година",
+              "other": "на всеки %{count} години"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} на доставка",
+          "prepaid_shipping_price_label": "%{shipping_price} за доставка x %{delivery_interval_count}",
+          "initial_order_discounted": "Първо цена за доставка %{discounted_shipping_cost}, след това %{frequency_description}",
+          "prepaid_initial_order_discounted": "Първа цена за доставка %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Първа цена за доставка %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Първо цена за доставка %{discounted_shipping_price} %{prepaid_delivery_frequency}, след това %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Първо цена за доставка %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), след това %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Включени",
+          "recurring_order_shipping_price": "последвано от %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Първата поръчка е включена, последвана от %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} за доставка), последвано от %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Първа поръчка безплатно",
+            "other": "Първите %{count} поръчки са безплатни"
+          },
+          "free_for_first_n_order": {
+            "one": "За първа поръчка",
+            "other": "За първите %{count} поръчки"
+          }
+        },
+        "one_time_purchase_shipping": "Еднократна доставка"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Допълнителна информация"
+        }
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Pay",
+        "amazon_payments_login_hint": "Ще бъдете помолени да влезете с Amazon.",
+        "amazon_payments_logout": "Излезте от Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "Избраният метод на плащане не можа да бъде използван. Изберете друг метод или се свържете с вашата банка или издател на картата.",
+        "amazon_payments_abandoned_mfa_challenge": "Вашето плащане не можа да бъде извършено. Опитайте с различен метод на плащане или се свържете с вашата банка или издател на картата.",
+        "amazon_payments_could_not_enqueue_authorize": "Възникна проблем при обработката на вашето плащане. Опитайте отново или използвайте друг метод на плащане.",
+        "apple": {
+          "connect": "Щракнете, за да свържете своя Apple Pay акаунт",
+          "not_available": "Apple Pay не се предлага в този браузър. За да свържете своя акаунт в Apple Pay, трябва да използвате Safari на устройство на Apple."
+        },
+        "google": {
+          "connect": "Кликнете, за да се свържете с вашия акаунт в Google Pay",
+          "error_authorizing": "Грешка при разрешаване на плащането"
+        },
+        "account_connected": "Свързан акаунт.",
+        "mor_disclaimer_html": "Щраквайки по-долу и завършвайки поръчката си, вие се съгласявате да закупите вашия артикул(и) от Global-e като регистриран търговец за тази транзакция, съгласно <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%%7Bterms_href%7D\">Правилата и условията<\/a> и <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%%7Bpolicy_href%7D\">Политиката за поверителност<\/a> на Global-e. Global-e е международен доставчик на услуги за изпълнение на %{shop_name}",
+        "pending_payment": {
+          "due_notice": "Вашето плащане от %{amount_due} е дължимо на %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Направете своето плащане в Multibanco или онлайн, като използвате данните по-долу. За въпроси или за актуализиране на данните за плащане, %{contact_us}.",
+            "entity": "Обект",
+            "reference": "справка",
+            "amount": "Количество",
+            "find_nearest_atm": "Намерете най-близкия банкомат"
+          }
+        },
+        "update_payment_method": "Актуализирайте метода на плащане"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Текущо салдо %{amount}",
+        "credit_card_expires_on_notice": "Изтича на %{month}\/%{year}",
+        "express_payment_gateway_label": "Експрес",
+        "manual_payment_gateway_label": "Ръководство",
+        "billing_address_title": "Адрес на плащане",
+        "free_label": "Безплатно"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Въведете валиден телефонен номер",
+        "handle_email_invalid": "Въведете валиден имейл",
+        "email_invalid": "Въведете валиден имейл",
+        "email_or_phone_blank": "Въведете имейл или номер на мобилен телефон",
+        "email_or_phone_invalid": "Въведете валиден имейл или номер на мобилен телефон",
+        "address_first_name_blank": "Въведете собствено име",
+        "address_first_name_too_long": "Името е твърде дълго (максимумът е 255 знака)",
+        "address_first_name_contains_emojis": "Името не може да съдържа емотикони",
+        "address_first_name_contains_html_tags": "Името не може да съдържа HTML тагове.",
+        "address_first_name_contains_url": "Името не може да съдържа URL",
+        "address_last_name_blank": "Въведете фамилно име",
+        "address_last_name_too_long": "Фамилното име е твърде дълго (максимумът е 255 знака)",
+        "address_last_name_contains_emojis": "Фамилното име не може да съдържа емотикони",
+        "address_last_name_contains_html_tags": "Фамилията не може да съдържа HTML тагове.",
+        "address_last_name_contains_url": "Фамилията не може да съдържа URL",
+        "address_address1_blank": "Въведете адрес",
+        "address_address1_too_long": "Първият адресен ред е твърде дълъг (максимумът е 255 знака)",
+        "address_address1_contains_emojis": "Адрес1 не може да съдържа емотикони",
+        "address_address1_contains_html_tags": "Адрес1 не може да съдържа HTML тагове.",
+        "address_address2_blank": "Въведете апартамент, апартамент и др.",
+        "address_address2_too_long": "Вторият адресен ред е твърде дълъг (максимумът е 255 знака)",
+        "address_address2_contains_emojis": "Address2 не може да съдържа емотикони",
+        "address_address2_contains_html_tags": "Адрес2 не може да съдържа HTML тагове.",
+        "address_city_blank": "Въведете град",
+        "address_city_too_long": "Градът е твърде дълъг (максимумът е 255 знака)",
+        "address_city_contains_emojis": "Градът не може да съдържа емотикони",
+        "address_city_contains_html_tags": "Градът не може да съдържа HTML тагове.",
+        "address_country_blank": "Изберете държава\/регион",
+        "address_country_not_supported": "Ние не изпращаме до тази страна или регион. Въведете нов адрес за доставка и опитайте отново.",
+        "address_province_blank": "Изберете щат\/провинция",
+        "address_company_blank": "Въведете име на фирма",
+        "address_company_too_long": "Името на фирмата е твърде дълго (максимумът е 255 знака)",
+        "address_company_contains_emojis": "Компанията не може да съдържа емотикони",
+        "address_company_contains_html_tags": "Компанията не може да съдържа HTML тагове.",
+        "address_phone_blank": "Въведете валиден телефонен номер",
+        "address_phone_contains_emojis": "Телефонният номер не може да съдържа емотикони",
+        "address_zip_blank": "Въведете пощенски код",
+        "address_zip_not_supported": "Това местоположение не се поддържа.",
+        "address_zip_invalid_for_country": "Въведете валиден пощенски код за %{country}",
+        "address_zip_invalid_for_country_and_province": "Въведете валиден пощенски код за %{province}, %{country}",
+        "address_zip_contains_emojis": "Пощенският код не може да съдържа емотикони",
+        "credit_card_name_blank": "Въведете името си точно както е написано на вашата карта",
+        "credit_card_name_invalid": "Въведете името си точно както е написано на вашата карта",
+        "credit_card_number_invalid": "Въведете валиден номер на карта",
+        "credit_card_expiry_invalid": "Въведете валидна дата на изтичане на картата",
+        "credit_card_month_invalid": "Въведете валиден месец на валидност на картата",
+        "credit_card_year_invalid": "Въведете валидна година на изтичане на картата",
+        "credit_card_start_invalid": "Въведете валидна начална дата на картата",
+        "credit_card_start_month_invalid": "Въведете начален месец на валидна карта",
+        "credit_card_start_year_invalid": "Въведете валидна начална година на картата",
+        "credit_card_verification_value_blank": "Въведете CVV или кода за сигурност на вашата карта",
+        "reduction_code_code_not_found": "Въведете валиден код за отстъпка или карта за подарък",
+        "reduction_code_discount_not_found": "Въведете валиден код за отстъпка",
+        "reduction_code_gift_card_code_invalid": "Въведете валидна карта за подарък",
+        "reduction_code_gift_card_unusable": "Не можете да използвате карта за подарък, за да купите друга карта за подарък",
+        "shipping_line_phone_blank": "Въведете телефонен номер, за да използвате този метод на доставка",
+        "shipping_line_phone_invalid": "Въведете валиден телефонен номер, за да използвате този метод на доставка",
+        "tips_invalid_tip_amount": "Въведете бакшиш не повече от %{amount}",
+        "gift_card_already_applied": "Тази подаръчна карта вече е приложена към вашата поръчка",
+        "gift_card_disabled": "Тази подаръчна карта вече не е налична",
+        "gift_card_expired": "Тази карта за подарък е изтекла",
+        "gift_card_depleted": "В тази подаръчна карта няма останали средства",
+        "gift_card_currency_mismatch": "С тази поръчка могат да се използват само карти за подарък в %{checkout_currency}",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Подаръчните карти не се поддържат с опции за отложена покупка.",
+        "gift_card_buying_gift_card": "Не можете да използвате карта за подарък, за да купите друга карта за подарък",
+        "payment_gateway_needs_paid_plan_error": "Този метод на плащане не е наличен в магазина в момента",
+        "payment_gateway_not_in_test_mode": "не е настроен да тества поръчки. Този магазин не може да приема реални поръчки или реални плащания.",
+        "payment_gateway_incompatible_with_multi_currency": "За да завършите това плащане във вашата местна валута, трябва да платите с кредитна карта.",
+        "payment_gateway_unsupported_for_subscriptions": "Този метод на плащане не е наличен за поръчки за абонамент.",
+        "payment_gateway_unsupported_for_country": "Този метод на плащане не е наличен за вашата държава за доставка.",
+        "subscription_agreement_blank": "За да продължите с покупката си, съгласете се с условията за абонамент",
+        "physical_gift_card_invalid_quantity": "Обредените артикули с физически подаръчни карти трябва да имат количество, което съответства на броя кодове на подаръчни карти.",
+        "physical_gift_card_duplicate_code": "Договорената позиция за физическа карта за подарък съдържа дублиран код.",
+        "physical_gift_card_invalid_code": "Кодът на физическата карта за подарък е невалиден."
+      },
+      "payment_errors": {
+        "generic_error": "Възникна проблем при обработката на вашето плащане. Опитайте отново или използвайте друг метод на плащане.",
+        "rejected_transaction": "Вашето плащане беше отхвърлено. Опитайте отново или използвайте друг метод на плащане.",
+        "credit_card_processing": "Вашето плащане не може да бъде обработено поради технически причини. Опитайте отново след няколко минути или използвайте друг метод на плащане.",
+        "checkout_amount_changed": "Вашето плащане не можа да бъде обработено, тъй като дължимата сума при плащане се е променила. Моля, проверете поръчката си и опитайте отново.",
+        "deferred_payment_not_allowed": "Не се допускат разсрочени плащания. Моля, проверете поръчката си и опитайте отново.",
+        "deferred_payment_required": "Тази поръчка изисква разсрочено плащане. Моля, проверете поръчката си и опитайте отново.",
+        "deferred_amount_changed": "Вашето плащане не може да бъде обработено, тъй като сумата на отложеното плащане се е променила. Моля, проверете поръчката си и опитайте отново."
+      },
+      "tips": {
+        "no_tip_label": "Нито един"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Купете %{product_name}",
+          "one": "Купете %{product_name} и %{count} друг артикул",
+          "other": "Купете %{product_name} и %{count} други артикула"
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "ден",
+            "other": "%{count} дни"
+          },
+          "week": {
+            "one": "седмица",
+            "other": "%{count} седмици"
+          },
+          "month": {
+            "one": "месец",
+            "other": "%{count} месеца"
+          },
+          "year": {
+            "one": "година",
+            "other": "%{count} години"
+          }
+        },
+        "recurring_totals": "%{total_price} всеки %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Първо плащане %{total_price_with_discount}, след това %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Първо плащане %{total_price}",
+            "other": "Първи %{count} плащания по %{total_price} всяко"
+          },
+          "following_cycles": ", след това %{total_price} на всеки %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", след това %{count} плащане на %{total_price}",
+            "other": ", след това %{count} плащания по %{total_price} всяко"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Начини за плащане",
+        "title": "Начини за плащане",
+        "update_card_button_label": "Актуализиране на картата",
+        "delete_customer_mandate": {
+          "generic_error": "Възникна проблем при обработката на вашата заявка.",
+          "success_message": "Вашият метод на плащане е изтрит успешно"
+        }
+      }
+    },
+    "pagination": {
+      "previous": "Предишен",
+      "next": "Следващия"
+    },
+    "links": {
+      "powered_by_shopify": "Осъществено от Shopify",
+      "learn_more": "Научете повече"
+    },
+    "feed": {
+      "more": "| Повече ▼"
+    },
+    "attributes": {
+      "email": "електронна поща",
+      "password": "парола",
+      "password_confirmation": "Потвърждението на паролата",
+      "first_name": "първо име",
+      "last_name": "фамилия",
+      "body": "тяло",
+      "signature": "Адрес"
+    },
+    "addresses": {
+      "zip_code": "пощенски код",
+      "postal_code": "Пощенски код",
+      "postcode": "Пощенски код",
+      "pincode": "ПИН код",
+      "region": "Регион",
+      "prefecture": "Префектура",
+      "province": "Провинция",
+      "state": "състояние",
+      "state_and_territory": "Държава\/територия",
+      "county": "окръг",
+      "emirate": "Емирство",
+      "governorate": "Губернаторство",
+      "confirm": "Сигурни ли сте, че искате да изтриете този адрес?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Представено",
+        "best_selling": "Най-продаван",
+        "az": "По азбучен ред, AZ",
+        "za": "По азбучен ред ЗА",
+        "price_ascending": "Цена, ниска към висока",
+        "price_descending": "Цена, висока към ниска",
+        "date_ascending": "Дата, старо към ново",
+        "date_descending": "Дата, нова към стара"
+      }
+    },
+    "errors": {
+      "blank": "не може да се попълни",
+      "blocked_address": "Това местоположение не се поддържа.",
+      "credit_card_session_expired": "Оторизацията на кредитната карта е изтекла, моля, въведете данните си за плащане отново. Вашата карта не е таксувана.",
+      "empty": "не може да бъде празно",
+      "invalid_email": "Трябва да е валиден имейл адрес",
+      "discount_disabled": "Тази отстъпка е деактивирана",
+      "discount_expired": "Тази отстъпка вече не е валидна",
+      "discount_limit_reached": "Тази отстъпка достигна лимита си за използване",
+      "discount_not_found": "Не може да се намери валидна отстъпка, съответстваща на въведения код",
+      "customer_already_used_once_per_customer_discount_notice": "Тази отстъпка достигна лимита си за използване",
+      "gift_card_already_applied": "Кодът вече е приложен към плащането ви",
+      "gift_card_code_invalid": "Кодът е невалиден",
+      "gift_card_currency_mismatch": "%{gift_card_currency} карти за подарък не могат да се прилагат към %{checkout_currency} поръчки",
+      "gift_card_depleted": "Няма останали средства по тази подаръчна карта",
+      "gift_card_disabled": "Картата за подарък е деактивирана",
+      "gift_card_expired": "Картата за подарък е с изтекъл срок",
+      "invalid": "е невалиден",
+      "bad_domain": "съдържа невалидно име на домейн",
+      "taken": "вече е взето",
+      "contains_html_tags": "не може да съдържа HTML тагове",
+      "too_short": "е твърде кратък (минимумът е %{count} знака)",
+      "too_long": "е твърде дълъг (максимумът е %{count} знака)",
+      "password_mismatch": "трябва да съответства на предоставената парола",
+      "contains_spaces": "започва или завършва с интервали.",
+      "email_domain_invalid": "доставчикът не се поддържа",
+      "invalid_for_country": "не е валидно за %{country}",
+      "invalid_for_country_and_province": "не е валидно за %{province} и %{country}",
+      "invalid_province_in_country": "не е валидна провинция в %{country}",
+      "invalid_state_in_country": "не е валиден щат в %{country}",
+      "invalid_region_in_country": "не е валиден регион в %{country}",
+      "less_than_or_equal_to": "трябва да е по-малко или равно на %{count}",
+      "not_supported": "не се поддържа",
+      "full_name_required": "Въведете име и фамилия",
+      "invalid_for_card_type": "не е валиден",
+      "invalid_type": "за съжаление не приемаме карти от този тип",
+      "invalid_format": "форматът не е валиден",
+      "expired": "изтече",
+      "invalid_start_date_or_issue_number_for_debit": "изисква се валидна начална дата или номер на издаване",
+      "invalid_expiry_year": "не е валидна година на изтичане",
+      "reset_password_html": "Този имейл адрес вече е свързан с акаунт. Ако този акаунт е ваш, можете да <a href=\"\/account\/login#recover\">нулирате паролата си<\/a>",
+      "verify_email": "Изпратихме имейл до %{customer_email}, моля, щракнете върху включената връзка, за да потвърдите своя имейл адрес.",
+      "product_not_available": "продуктът не е публикуван за този клиент."
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Грешка при повторно задаване на парола"
+      }
+    }
+  }
+}
