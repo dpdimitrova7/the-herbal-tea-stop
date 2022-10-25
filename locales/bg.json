@@ -883,6 +883,159 @@
           "loading_accessibility_label": "Зареждане на хора"
         }
       }
+    },
+    "B2B": {
+      "location_selection": {
+        "selection_confirmation_button": "Изберете местоположение",
+        "title": "За кое място купувате?",
+        "clear_search": "Изчистете търсенето",
+        "try_new_search": "Опитайте с ново търсене"
+      },
+      "addresses": {
+        "add_billing_address_button": "Добавете адрес за фактуриране",
+        "add_billing_address_section_accessibility_label": "Добавете адрес за фактуриране",
+        "add_shipping_address_button": "Добавете адрес за доставка",
+        "add_shipping_address_section_accessibility_label": "Добавете адрес за доставка",
+        "billing_address_card_title": "Адрес на плащане",
+        "cancel_adding_billing_address_accessibility_label": "Отменете добавянето на адрес за фактуриране",
+        "cancel_adding_shipping_address_accessibility_label": "Отменете добавянето на адрес за доставка",
+        "save_new_billing_address_accessibility_label": "Запазете адреса за фактуриране",
+        "save_new_shipping_address_accessibility_label": "Запазете адреса за доставка",
+        "shipping_address_card_title": "Адрес за доставка"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Скрий всичко",
+          "show_all": "Покажи всички",
+          "hide_all_accessibility_label": "Скриване на всички поръчки в преглед",
+          "show_all_accessibility_label": "Показване на всички поръчки в преглед",
+          "show_all_orders_in_review": "Показване на всички поръчки в преглед",
+          "show_less_orders_in_review": "Показване на по-малко поръчки в прегледа",
+          "title": "В очакване",
+          "pagination": {
+            "nav_accessibility_label": "Поръчки в бутоните за навигация за преглед"
+          }
+        },
+        "order_list_column_headers_location": "Местоположение",
+        "order_list_column_headers_contact": "Контакт"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Потвърдено {{date}} от поръчка {{draftOrderName}}",
+        "loading": "Зареждат се подробности за поръчката",
+        "loading_finished_accessibility_message": "Данните за поръчката са заредени",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Плащането ви е просрочено с {{count}} дни",
+              "other": "Плащането Ви е с {{count}} дни просрочие"
+            },
+            "banner_due": {
+              "one": "Плащането ви е дължимо след {{count}} ден",
+              "other": "Вашето плащане е дължимо след {{count}} дни"
+            },
+            "banner_due_today": "Вашето плащане е дължимо днес",
+            "title": "Платежни задължения",
+            "title_with_date": "Падеж на плащане {{date}}",
+            "title_due_on_receipt": "Плащането все още не е дължимо",
+            "title_due_on_fulfillment": "Плащане при изпълнение",
+            "description_overdue": "Плащането ви закъснява.",
+            "description_partially_paid": "Тази поръчка беше частично платена. Имате остатъчен баланс.",
+            "description_authorized": "Вашият начин на плащане ще бъде таксуван на датата на падежа или можете да платите сега.",
+            "description_due_on_receipt": "Ще получите фактура, когато плащането е дължимо.",
+            "description_due_on_fulfillment": "Плащането е дължимо, след като всички елементи в тази поръчка бъдат изпълнени."
+          },
+          "draft": {
+            "description": "Детайлите за плащане се решават при потвърждаване на поръчката.",
+            "title": "Плащането все още не е дължимо",
+            "in_review": {
+              "description": "Детайлите за плащане се решават при потвърждаване на поръчката.",
+              "title": "Плащането все още не е дължимо"
+            },
+            "submitted": {
+              "description": "Изпратете плащане, за да потвърдите тази поръчка.",
+              "title": "Платете за потвърждение"
+            }
+          },
+          "paid": {
+            "title": "Платено",
+            "title_with_date": "Платено {{date}}",
+            "description": "Вашата поръчка е напълно платена."
+          },
+          "refund": {
+            "title": "Възстановена сума",
+            "title_with_date": "Възстановена {{date}}",
+            "description_full_refund": "Получихте пълно възстановяване на сумата за тази поръчка.",
+            "description_single_refund": "Получихте частично възстановяване на сумата за тази поръчка.",
+            "description_multiple_refunds": "Получихте частично възстановяване на средствата за тази поръчка."
+          },
+          "canceled": {
+            "title": "Плащането е отменено",
+            "description": "Няма да бъдете таксувани."
+          },
+          "pay_now": "Плати сега",
+          "title": "Статус на плащането"
+        },
+        "order_timeline": {
+          "expand_events_label": "Покажи детайли",
+          "expand_events_accessibility_label": "Показване на подробности за черновата на поръчката",
+          "hide_events_label": "Скриване на подробности",
+          "hide_events_accessibility_label": "Скриване на детайлите на черновата на поръчката"
+        },
+        "subtitle": "Изпратено {{date}}",
+        "title": "Поръчайте {{name}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Възникна проблем при изтриването на този адрес. Опитайте отново или опреснете страницата."
+      },
+      "addresses_loading_issue": {
+        "description": "Грешка при свързване. Проверете връзката си с интернет и опитайте отново."
+      },
+      "banner_title": {
+        "one": "Има {{count}} грешка",
+        "other": "Има {{count}} грешки"
+      },
+      "failed_address_creation": {
+        "description": "Възникна проблем при създаването на вашия адрес. Опитайте да опресните тази страница или проверете вашата интернет връзка."
+      },
+      "failed_address_update": {
+        "description": "Възникна проблем при актуализирането на вашия адрес. Опитайте да опресните тази страница или проверете вашата интернет връзка."
+      },
+      "load_orders_error": {
+        "title": "Поръчките не могат да се заредят",
+        "description": "Опитайте отново или се върнете по-късно.",
+        "retry_button": "Опитайте отново"
+      },
+      "no_access": {
+        "back_to_authentication_link": "Влезте в друг акаунт",
+        "description": "Не сте регистриран като B2B клиент на {{shopName}}",
+        "title": "Няма достъп"
+      },
+      "no_access_to_locations": {
+        "description": "Нямате достъп до никакви местоположения"
+      },
+      "not_found": {
+        "description": "Проверете URL адреса или опитайте отново след няколко минути.",
+        "title": "Има проблем при зареждането на тази страница"
+      },
+      "order_not_found": {
+        "description": "Тази поръчка не съществува или нямате разрешение да я видите.",
+        "title": "Поръчката не е намерена"
+      },
+      "profile_update_error": {
+        "description": "Възникна проблем при актуализирането на вашия профил. Опитайте да опресните тази страница или проверете вашата интернет връзка."
+      },
+      "retry_action_label": "Опитайте отново"
+    },
+    "shop_policies": {
+      "legal_notice": "Правна информация",
+      "privacy_policy": "Политика за поверителност",
+      "refund_policy": "Политика за възстановяване на средства",
+      "shipping_policy": "Политика за доставка",
+      "subscription_policy": "Абонаментна политика",
+      "terms_of_sale": "Условия за продажба",
+      "terms_of_service": "Условия за ползване"
     }
   },
   "customer": {
@@ -1142,5 +1295,22 @@
     "language_label": "език",
     "update_language": "Актуализиране на езика",
     "update_country": "Актуализирайте държавата\/региона"
+  },
+  "sections": {
+    "header": {
+      "announcement": "Съобщение",
+      "menu": "Меню",
+      "cart_count": {
+        "one": "{{ count }} елемент",
+        "other": "{{ count }} елемента"
+      }
+    },
+    "cart": {
+      "title": "Вашата количка",
+      "caption": "Количка артикули",
+      "remove_title": "Премахване на {{ title }}",
+      "subtotal": "Междинна сума",
+      "new_subtotal": "Нова междинна сума"
+    }
   }
 }
