@@ -825,6 +825,23 @@
         "address_map_marker": "Адрес за доставка",
         "method": "Начин на доставка",
         "summary": "Доставка"
+      },
+      "show_items": "Показване на елементи",
+      "show_order_summary": "Показване на резюмето на поръчката",
+      "hide_order_summary": "Скриване на резюмето на поръчката",
+      "subtitle": "Потвърдено {{date}}",
+      "subtotal": "Междинна сума",
+      "summary_list_title_accessibility_label": "Поръчайте артикули",
+      "summary_title": "Резюме на поръчката",
+      "summary_totals_title_accessibility_label": "Обща сума на поръчката",
+      "taxes": "Данъци",
+      "title": "Поръчайте {{name}}",
+      "total": "Обща сума",
+      "unit_price": "( {{price}} \/ea)",
+      "pagination": {
+        "load_more": "Зареди още",
+        "load_more_accessibility_label": "Заредете още елементи",
+        "loading_accessibility_label": "Зареждане на елементи"
       }
     },
     "navigation_and_structure": {
@@ -889,7 +906,20 @@
         "selection_confirmation_button": "Изберете местоположение",
         "title": "За кое място купувате?",
         "clear_search": "Изчистете търсенето",
-        "try_new_search": "Опитайте с ново търсене"
+        "try_new_search": "Опитайте с ново търсене",
+        "continue_to_store": "Продължете да съхранявате",
+        "description": "Ако вече имате артикули в количката си, промяната на местоположенията може да повлияе на цените и количествата на количката.",
+        "list_accessibility_label": "Списък с местоположения",
+        "list_item_without_address_accessibility_label": "{{name}} : Няма адрес",
+        "list_loading_accessibility_message": "Зарежда се списък с местоположения",
+        "list_loading_address_accessibility_message": "Зарежда се адрес за {{locationName}}",
+        "list_loading_finished_accessibility_message": "Списъкът с местоположения е зареден",
+        "loading_store_accessibility_message": "Отивам в магазина",
+        "no_location_title": "Само лични поръчки",
+        "no_location_description": "Вече нямате разрешение да правите поръчки за {{company}} . Все още можете да правите лични поръчки.",
+        "no_locations_found": "Няма намерени местоположения",
+        "search": "Търсете местоположение",
+        "selection_cancel_button": "Отказ"
       },
       "addresses": {
         "add_billing_address_button": "Добавете адрес за фактуриране",
@@ -983,6 +1013,38 @@
         },
         "subtitle": "Изпратено {{date}}",
         "title": "Поръчайте {{name}}"
+      },
+      "account_information": {
+        "company_card_name_label": "Име на фирмата",
+        "company_card_section_accessibility_label": "Търговско дружество"
+      },
+      "locations": {
+        "contact_email": "електронна поща",
+        "contact_list_title": "хора",
+        "contact_name": "Име",
+        "contact_permissions": "Разрешения",
+        "contact_phone_number": "Телефонен номер",
+        "location_picker_label": "Име на местоположението",
+        "net_payment_terms_description": "{{name}} : дължими плащания в рамките на {{numberOfDays}} дни",
+        "pagination": {
+          "load_more": "Зареди още",
+          "load_more_accessibility_label": "Заредете още местоположения"
+        },
+        "payment_details_title": "Подробности на плащане",
+        "payment_terms": "Условия за плащане",
+        "permissions_label": "Вашите разрешения",
+        "permissions_title": "Разрешения",
+        "section_title": "Местоположение",
+        "shipping_address_required": "Добавете адрес за доставка към това местоположение, за да започнете да правите поръчки.",
+        "tax_details_title": "Данъчни данни",
+        "tax_id": "Данъчен номер",
+        "tax_exemptions": "Освобождаване от данъци",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "и",
+        "tax_exemptions_modal_close": "Близо",
+        "taxes_none": "Нито един",
+        "tax_exemption_not_applicable": "N\/A",
+        "tax_exemptions_modal_button_accessibility_label": "Вижте всички освобождавания от данъци"
       }
     },
     "errors": {
@@ -1036,6 +1098,62 @@
       "subscription_policy": "Абонаментна политика",
       "terms_of_sale": "Условия за продажба",
       "terms_of_service": "Условия за ползване"
+    },
+    "addresses": {
+      "add_button": "Добавете адрес",
+      "add_address_banner": "Добавете адреси, които да използвате при плащане",
+      "address_deleted_notification": "Адресът е изтрит",
+      "cancel_adding_address_accessibility_label": "Отказ от добавянето на адрес",
+      "cancel_deletion_button": "Отказ",
+      "cancel_deletion_button_accessibility_label": "Отказ от изтриването {{address}}",
+      "default_address": {
+        "title": "Адрес по подразбиране",
+        "title_accessibility_label": "Адрес по подразбиране: {{address}}"
+      },
+      "delete_button": "Изтрий",
+      "delete_button_accessibility_label": "Изтриване {{address}}",
+      "delete_confirmation_button": "Изтриване на адреса",
+      "delete_confirmation_button_accessibility_label": "Изтриване {{address}}",
+      "delete_confirmation_message": "Изтриване на адреса? Съществуващите поръчки не са засегнати.",
+      "delete_confirmation_title": "Изтриване на адреса?",
+      "delete_confirmation_description": "Съществуващите поръчки не са засегнати.",
+      "edit_button": "редактиране",
+      "edit_button_accessibility_label": "Редактиране {{address}}",
+      "edit_section_accessibility_label": "Редактиране {{address}}",
+      "edit_modal_title": {
+        "default": "Редактиране на адреса",
+        "billing": "Редактиране на адреса за фактуриране",
+        "shipping": "Редактиране на адреса за доставка"
+      },
+      "loading_accessibility_message": "Адресът се зарежда",
+      "loading_addresses_accessibility_message": "Зареждане на адреси",
+      "loading_billing_accessibility_message": "Адресът за фактуриране се зарежда",
+      "loading_finished_accessibility_message": "Зареди се нова страница с адреси",
+      "loading_shipping_accessibility_message": "Адресът за доставка се зарежда",
+      "pagination": {
+        "load_more": "Зареди още",
+        "load_more_accessibility_label": "Зареди още адреси"
+      },
+      "save_new_address_accessibility_label": "Запазете адреса",
+      "title": "Адреси"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Затворете предложенията",
+      "auto_complete_title": "Предложения",
+      "billing_address": "Използвайте като адрес за фактуриране",
+      "cancel": "Отказ",
+      "cancel_accessibility_label": "Отказ от редактиране на адрес {{address}}",
+      "creation_success_notification": "Адресът е добавен",
+      "default_address": "Това е адресът ми по подразбиране",
+      "default_address_creation_success_notification": "Добавен е адрес по подразбиране",
+      "default_address_update_success_notification": "Адресът по подразбиране е актуализиран",
+      "loading_add_form_accessibility_message": "Зарежда се нов формуляр за адрес",
+      "loading_edit_form_accessibility_message": "Зарежда се формуляр за редактиране на адрес",
+      "loading_finished_accessibility_message": "Формулярът е зареден",
+      "save": "Запазване",
+      "save_accessibility_label": "Запази адрес {{address}}",
+      "section_title_accessibility_label": "Добавете адрес",
+      "update_success_notification": "Адресът е актуализиран"
     }
   },
   "customer": {
