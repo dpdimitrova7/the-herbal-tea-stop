@@ -260,7 +260,113 @@
             "find_nearest_atm": "Намерете най-близкия банкомат"
           }
         },
-        "update_payment_method": "Актуализирайте метода на плащане"
+        "update_payment_method": "Актуализирайте метода на плащане",
+        "title": "Плащане",
+        "amount_left_to_pay_label": "Платежни задължения:",
+        "discount_button_action_label": "Приложете код за отстъпка",
+        "gift_card_code_label": "Код на подаръчна карта",
+        "apply_gift_card_button_label": "Приложи",
+        "supported_card_brands_more_label": "и още…",
+        "detected_card_brand": "Открита марка на картата: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "Запазете кредитната си карта",
+        "credit_card_vaulting_sign_in_banner_info": "Влезте или създайте акаунт, за да запазите кредитната си карта за бъдещи покупки.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Влизам",
+        "ftd_vault_credit_card_label": "Запазете тази кредитна карта в моя акаунт за по-бързо плащане",
+        "card_number_label": "Номер на карта",
+        "card_number_placeholder": "Номер на карта",
+        "card_pay_with": "Плати с:",
+        "card_security_notice": "Всички транзакции са защитени и криптирани.",
+        "card_security_vault_notice": "Имаме нужда от вашите данни за бъдещи плащания. Всички транзакции са защитени и криптирани.",
+        "card_information_notice": "Всички транзакции са защитени и криптирани. Информацията за кредитната карта никога не се съхранява.",
+        "name_on_card_label": "Име на карта",
+        "name_on_card_placeholder": "Име на карта",
+        "card_expired": "Просрочен",
+        "card_expiry_label": "Срок на годност (MM \/ YY)",
+        "card_expiry_placeholder": "Срок на годност (MM \/ YY)",
+        "credit_card_start_month": "Начален месец",
+        "credit_card_start_year": "Начална година",
+        "delete_customer_mandate_modal_title": "Да се премахне ли тази платежна карта?",
+        "delete_customer_mandate_modal_body": "Ако премахнете тази карта, ще трябва да я добавите отново, преди да я използвате за плащания.",
+        "delete_customer_mandate_modal_confirm": "Премахнете картата",
+        "delete_customer_mandate_modal_cancel": "Отказ",
+        "card_verification_value_label": "Код за сигурност",
+        "card_verification_value_placeholder": "Код за сигурност",
+        "card_verification_confirm": "За целите на проверката, моля, въведете кода за сигурност на вашата карта.",
+        "card_expiry_date_explanation": "Срок на валидност на картата във формат: месец, месец, година, година",
+        "card_expiration_month_label": "Месец на годност",
+        "card_expiration_year_label": "Година на годност",
+        "card_verification_value_explanation": "3-цифрен код за сигурност, който обикновено се намира на гърба на вашата карта. Картите American Express имат 4-цифрен код, разположен отпред.",
+        "card_verification_value_explanation_amex": "4-цифрен код за сигурност отпред на вашата карта",
+        "card_verification_value_explanation_other": "3-цифрен код за сигурност на гърба на вашата карта",
+        "card_start_label": "Дата на издаване (ММ \/ ГГ)",
+        "card_start_placeholder": "Дата на издаване (ММ \/ ГГ)",
+        "card_issue_number_label": "Номер на изданието",
+        "card_issue_number_placeholder": "Номер на изданието",
+        "card_change_label": "промяна",
+        "card_update_label": "Актуализиране на картата",
+        "ends_with_label": "завършващ на %{last_digits}",
+        "masked_digits_label": "•••• %{last_digits}",
+        "expiry_long": "(Изтича %{month}\/%{year})",
+        "expiry_short": "(Изтича %{month}\/%{year})",
+        "saved_by_payment_method": "Запазено от %{payment_method}",
+        "pay_with_payment_method": "Платете с %{payment_method}",
+        "different_credit_card_label": "Използвайте друга кредитна карта",
+        "same_billing_address_label": "същия като адреса за доставка",
+        "different_billing_address_label": "Използвайте различен адрес за фактуриране",
+        "billing_address_associated_with_mandate": "Използвайте адрес, свързан с метода на плащане",
+        "billing_address_associated_with_mandate_info": "Ако искате да промените адреса си за фактуриране, моля, премахнете и въведете отново данните за кредитната си карта",
+        "free_order_notice_html": "Вашата поръчка е <strong>безплатна<\/strong> . Не се изисква плащане.",
+        "express_checkout_free_order": "Няма да бъдете таксувани за безплатна поръчка",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Вашата поръчка се покрива от вашата подаръчна карта.",
+          "other": "Вашата поръчка се покрива от вашите карти за подарък."
+        },
+        "offsite_gateway_redirect_hint": "След като щракнете върху „%{button_label}“, ще бъдете пренасочени към %{gateway_label}, за да завършите покупката си безопасно.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} общо %{total_shop_price}",
+        "receiver_payment_experience_hint": "След като направите поръчката си, ще получите данни за плащане. Направете плащането в Multibanco или онлайн в рамките на %{due_day} дни.",
+        "billing_address_title": "Адрес на плащане",
+        "billing_address_description": "Изберете адреса, който съответства на вашата карта или начин на плащане.",
+        "billing_address_description_no_shipping_address": "Въведете адреса, който съответства на вашата карта или начин на плащане.",
+        "no_js_credit_card_fields_redirect_hint": "Ще бъдете пренасочени, за да добавите вашата информация за плащане.",
+        "card_fields_container_prefix": "Полеви контейнер за:",
+        "card_fields_unavailable_html": {
+          "one": "Плащанията с кредитни и дебитни карти не са налични в момента.<br> <a href=\"%%7Bcurrent_url%7D\">Опреснете тази страница<\/a> или опитайте отново по-късно.",
+          "other": "Плащанията с кредитни и дебитни карти не са налични в момента.<br> <a href=\"%%7Bcurrent_url%7D\">Опреснете тази страница<\/a> или опитайте друг метод на плащане."
+        },
+        "card_fields_processing_error": "Възникна проблем при обработката на плащането. Опитайте да опресните тази страница или проверете вашата интернет връзка.",
+        "technical_error": "Плащанията не могат да бъдат обработени в момента поради технически проблем. Опитайте отново след няколко минути.",
+        "no_method_error": "Този магазин не може да приема плащания в момента.",
+        "not_configured_error": "Този магазин не може да приема плащания в момента.",
+        "missing_credit_card_error": "Въведете данните на вашата карта, за да завършите плащането",
+        "billing_address_not_supported_for_payment_method_error": "Този метод на плащане не е наличен за вашия адрес за фактуриране и валута. Моля, опитайте с различен метод на плащане.",
+        "generic_incorrect_card_info": "Вашите данни за плащане не можаха да бъдат потвърдени. Проверете данните на вашата карта и опитайте отново.",
+        "sofort_label": "Sofort банков превод",
+        "paypal_label": "PayPal",
+        "klarna_label": "Кларна",
+        "klarna_pay_later_label": "Платете по-късно с Klarna",
+        "klarna_pay_now_label": "Платете сега с Klarna",
+        "bancontact_label": "Bancontact",
+        "giropay_label": "Giropay",
+        "multibanco_label": "Мултибанко",
+        "eps_label": "eps-Überweisung",
+        "klarna_slice_it_label": "Финансирайте с Klarna",
+        "ideal_label": "ИДЕАЛЕН",
+        "bank_picker_label": "банка",
+        "purchase_options_card_update_agreement_label_html": "Като актуализирате своя метод на плащане, вие разрешавате плащания за всяка повтаряща се или отложена покупка съгласно <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%%7Bpolicy_href%7D\">правилата за анулиране<\/a> на този магазин.",
+        "subscription_card_update_agreement_label": "Промяната на метода на плащане ще актуализира вашия абонамент и бъдещи повтарящи се плащания.",
+        "subscription_agreement_label": "Разбирам, че съм съгласен с абонамент. Той ще се подновява на посочените цена и честота, докато не приключи или не бъде %{отменено}.",
+        "subscription_agreement_cancelled": "отменен",
+        "subscription_agreement_label_html": "Разбирам, че съм съгласен с абонамент. Той ще се подновява на посочените цена и честота, докато приключи или бъде <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%%7Bpolicy_href%7D\">отменен<\/a> .",
+        "purchase_options_agreement_label": "Разбирам, че един или повече артикули в количката ми са отложена или повтаряща се покупка. Продължавайки, приемам %{cancellation_policy_label} и ви упълномощавам да таксувате моя метод на плащане на цените, честотата и датите, посочени на тази страница, докато поръчката ми не бъде изпълнена или докато не анулирам, ако е разрешено.",
+        "change_currency_section_description": "Изберете опция за валута",
+        "no_real_orders_dev_store": "Този магазин не може да приема реални поръчки или реални плащания.",
+        "waiting_on_payment_methods": "Получават се налични методи за плащане...",
+        "apple_pay_payment_error": "Вашето плащане не можа да бъде извършено. Опитайте отново или използвайте друг метод на плащане.",
+        "taxes_not_included": "Данъците не са включени",
+        "no_taxes_banner_content": "Няма да се начисляват данъци върху тази поръчка. След като сте получили плащането, данъците вече не могат да се добавят.",
+        "paypal": {
+          "connect": "Щракнете, за да свържете своя PayPal акаунт"
+        }
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Текущо салдо %{amount}",
@@ -666,7 +772,8 @@
       "cancel": "Отказ",
       "edit": "редактиране",
       "delete": "Изтрий",
-      "delete_confirm": "Сигурни ли сте, че искате да изтриете този адрес?"
+      "delete_confirm": "Сигурни ли сте, че искате да изтриете този адрес?",
+      "title": "Адреси"
     },
     "log_in": "Влизам",
     "log_out": "Излез от профила си",
@@ -736,6 +843,21 @@
       "password": "Парола",
       "password_confirm": "Потвърди парола",
       "submit": "Нулирайте паролата"
+    },
+    "account": {
+      "title": "Сметка",
+      "details": "Детайли за акаунта",
+      "view_addresses": "Вижте адреси",
+      "return": "Върнете се към подробности за акаунта"
+    },
+    "account_fallback": "Сметка",
+    "activate_account": {
+      "title": "Активирайте акаунта",
+      "subtext": "Създайте парола, за да активирате акаунта си.",
+      "password": "Парола",
+      "password_confirm": "Потвърди парола",
+      "submit": "Активирайте акаунта",
+      "cancel": "Отклонете поканата"
     }
   },
   "gift_cards": {
@@ -752,5 +874,139 @@
       "copy_code_success": "Кодът е копиран успешно",
       "print_gift_card": "Печат"
     }
+  },
+  "blogs": {
+    "article": {
+      "success": "Вашият коментар беше публикуван успешно! Благодаря ти!",
+      "success_moderated": "Вашият коментар беше публикуван успешно. След малко ще го публикуваме, тъй като блогът ни е модериран."
+    }
+  },
+  "onboarding": {
+    "product_title": "Примерно заглавие на продукта",
+    "collection_title": "Името на вашата колекция"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Добави в кошницата",
+      "choose_options": "Изберете опции",
+      "choose_product_options": "Изберете опции за {{ product_name }}",
+      "description": "Описание",
+      "on_sale": "Разпродажба",
+      "product_variants": "Варианти на продукта",
+      "media": {
+        "gallery_viewer": "Преглед на галерия",
+        "load_image": "Заредете изображение {{ index }} в изглед на галерия",
+        "load_model": "Заредете 3D модел {{ index }} в изглед на галерия",
+        "load_video": "Пускане на видео {{ index }} в изглед на галерия",
+        "image_available": "Изображение {{ index }} вече е достъпно в изглед на галерия",
+        "open_media": "Отворете медия {{ index }} в модален",
+        "play_model": "Играйте 3D Viewer",
+        "play_video": "Възпроизвеждане на видео"
+      },
+      "quantity": {
+        "label": "Количество",
+        "input_label": "Количество за {{ product }}",
+        "increase": "Увеличете количеството за {{ product }}",
+        "decrease": "Намаляване на количеството за {{ product }}"
+      },
+      "pickup_availability": {
+        "view_store_info": "Вижте информацията за магазина",
+        "check_other_stores": "Проверете наличността в други магазини",
+        "pick_up_available": "Възможност за вземане",
+        "pick_up_available_at_html": "Налично вземане от <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Понастоящем няма възможност за получаване от <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "unavailable": "Наличността за получаване на място не можа да се зареди",
+        "refresh": "Опресняване"
+      },
+      "price": {
+        "from_price_html": "От {{ price }}",
+        "regular_price": "Редовна цена",
+        "sale_price": "Продажна цена",
+        "unit_price": "Единична цена"
+      },
+      "share": "Споделете този продукт",
+      "sold_out": "Продадено",
+      "unavailable": "Недостъпен",
+      "vendor": "Доставчик",
+      "video_exit_message": "{{ title }} отваря видео на цял екран в същия прозорец.",
+      "view_full_details": "Вижте пълните подробности",
+      "xr_button": "Преглед във вашето пространство",
+      "xr_button_label": "Преглед във вашето пространство, зарежда елемент в прозорец с добавена реалност",
+      "include_taxes": "Включен данък.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">Доставката се<\/a> изчислява при плащане."
+    },
+    "modal": {
+      "label": "Медийна галерия"
+    },
+    "facets": {
+      "apply": "Приложи",
+      "clear": "ясно",
+      "clear_all": "Премахнете всички",
+      "from": "от",
+      "filter_and_sort": "Филтрирайте и сортирайте",
+      "filter_button": "Филтър",
+      "filters_selected": {
+        "one": "{{ count }} избрани",
+        "other": "{{ count }} избрани"
+      },
+      "filter_selected_accessibility": "{{ type }} ( {{ count }} избрани филтри)",
+      "show_more": "Покажи повече",
+      "show_less": "Покажи по-малко",
+      "max_price": "Най-високата цена е {{ price }}",
+      "product_count": {
+        "one": "{{ product_count }} от {{ count }} продукт",
+        "other": "{{ product_count }} от {{ count }} продукта"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} продукт",
+        "other": "{{ count }} продукти"
+      },
+      "reset": "Нулиране",
+      "sort_button": "Вид",
+      "sort_by_label": "Сортиране по:",
+      "to": "Да се",
+      "clear_filter": "Отстранете филтъра"
+    }
+  },
+  "templates": {
+    "search": {
+      "no_results": "Няма намерени резултати за „ {{ terms }} “. Проверете правописа или използвайте друга дума или фраза.",
+      "page": "Страница",
+      "products": "Продукти",
+      "results_with_count": {
+        "one": "{{ count }} резултат",
+        "other": "{{ count }} резултати"
+      },
+      "results_with_count_and_term": {
+        "one": "Намерен {{ count }} резултат за „ {{ terms }} ”",
+        "other": "Намерени са {{ count }} резултата за „ {{ terms }} “"
+      },
+      "title": "Резултати от търсенето",
+      "search_for": "Търсете „ {{ terms }} ”"
+    },
+    "cart": {
+      "cart": "Количка"
+    },
+    "contact": {
+      "form": {
+        "title": "Форма за контакти",
+        "name": "Име",
+        "email": "електронна поща",
+        "phone": "Телефонен номер",
+        "comment": "Коментирайте",
+        "send": "Изпратете",
+        "post_success": "Благодаря, че се свързахте с нас. Ще се свържем с вас възможно най-скоро.",
+        "error_heading": "Моля, коригирайте следното:"
+      }
+    },
+    "404": {
+      "title": "Страницата не е намерена"
+    }
+  },
+  "localization": {
+    "country_label": "Държавен регион",
+    "language_label": "език",
+    "update_language": "Актуализиране на езика",
+    "update_country": "Актуализирайте държавата\/региона"
   }
 }
