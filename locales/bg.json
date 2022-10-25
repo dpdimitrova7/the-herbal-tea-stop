@@ -1701,7 +1701,21 @@
   "blogs": {
     "article": {
       "success": "Вашият коментар беше публикуван успешно! Благодаря ти!",
-      "success_moderated": "Вашият коментар беше публикуван успешно. След малко ще го публикуваме, тъй като блогът ни е модериран."
+      "success_moderated": "Вашият коментар беше публикуван успешно. След малко ще го публикуваме, тъй като блогът ни е модериран.",
+      "blog": "Блог",
+      "read_more_title": "Прочетете повече: {{ title }}",
+      "comments": {
+        "one": "{{ count }} коментар",
+        "other": "{{ count }} коментара"
+      },
+      "moderated": "Моля, имайте предвид, че коментарите трябва да бъдат одобрени, преди да бъдат публикувани.",
+      "comment_form_title": "Оставете коментар",
+      "name": "Име",
+      "email": "електронна поща",
+      "message": "Коментирайте",
+      "post": "Публикувай коментар",
+      "back_to_blog": "Назад към блога",
+      "share": "Споделете тази статия"
     }
   },
   "onboarding": {
@@ -1846,7 +1860,141 @@
       "caption": "Количка артикули",
       "remove_title": "Премахване на {{ title }}",
       "subtotal": "Междинна сума",
-      "new_subtotal": "Нова междинна сума"
+      "new_subtotal": "Нова междинна сума",
+      "note": "Поръчайте специални инструкции",
+      "checkout": "Разгледайте",
+      "empty": "Вашата количка е празна",
+      "cart_error": "Възникна грешка при актуализирането на вашата количка. Моля, опитайте отново.",
+      "cart_quantity_error_html": "Можете да добавите само {{ quantity }} от този артикул в количката си.",
+      "taxes_and_shipping_policy_at_checkout_html": "Данъците и <a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">доставката се<\/a> изчисляват при плащане",
+      "taxes_included_but_shipping_at_checkout": "Включен данък и доставката се изчислява при плащане",
+      "taxes_included_and_shipping_policy_html": "С включен данък. <a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">Доставката се<\/a> изчислява при плащане.",
+      "taxes_and_shipping_at_checkout": "Данъците и доставката се изчисляват при плащане",
+      "headings": {
+        "product": "Продукт",
+        "price": "Цена",
+        "total": "Обща сума",
+        "quantity": "Количество",
+        "image": "Изображение на продукта"
+      },
+      "update": "Актуализация",
+      "login": {
+        "title": "Има акаунт?",
+        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\" class=\"link underlined-link\">Влезте, за<\/a> да проверите по-бързо."
+      }
+    },
+    "footer": {
+      "payment": "Начини за плащане"
+    },
+    "featured_blog": {
+      "view_all": "Виж всички",
+      "onboarding_title": "Блог пост",
+      "onboarding_content": "Дайте на клиентите си резюме на вашата публикация в блога"
+    },
+    "featured_collection": {
+      "view_all": "Виж всички",
+      "view_all_label": "Вижте всички продукти в {{ collection_name }}"
+    },
+    "collection_list": {
+      "view_all": "Виж всички"
+    },
+    "collection_template": {
+      "empty": "Няма намерени продукти",
+      "title": "колекция",
+      "use_fewer_filters_html": "Използвайте по-малко филтри или <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">премахнете всички<\/a>"
+    },
+    "video": {
+      "load_video": "Зареждане на видео: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Заредете слайд",
+      "previous_slideshow": "Предишен слайд",
+      "next_slideshow": "Следващ слайд",
+      "pause_slideshow": "Поставяне на слайдшоуто на пауза",
+      "play_slideshow": "Пускане на слайдшоу",
+      "carousel": "Въртележка",
+      "slide": "пързалка"
+    },
+    "page": {
+      "title": "Заглавие на страница"
     }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "Влезте в магазина с парола:",
+      "login_password_button": "Въведете с парола",
+      "login_form_password_label": "Парола",
+      "login_form_password_placeholder": "Твоята парола",
+      "login_form_error": "Грешна парола!",
+      "login_form_submit": "Въведете",
+      "admin_link_html": "Вие ли сте собственикът на магазина? <a href=\"\/admin\" class=\"link underlined-link\">Влезте тук<\/a>",
+      "powered_by_shopify_html": "Този магазин ще се захранва от {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Споделям във Фейсбук",
+        "share_on_twitter": "Tweet в Twitter",
+        "share_on_pinterest": "Закачете в Pinterest"
+      },
+      "links": {
+        "twitter": "Twitter",
+        "facebook": "Facebook",
+        "pinterest": "Pinterest",
+        "instagram": "Instagram",
+        "tumblr": "Tumblr",
+        "snapchat": "Snapchat",
+        "youtube": "YouTube",
+        "vimeo": "Vimeo",
+        "tiktok": "TikTok"
+      }
+    },
+    "continue_shopping": "Продължи пазаруването",
+    "pagination": {
+      "label": "Пагинация",
+      "page": "Страница {{ number }}",
+      "next": "Следваща страница",
+      "previous": "Предишна страница"
+    },
+    "search": {
+      "search": "Търсене"
+    },
+    "cart": {
+      "view": "Вижте моята количка ( {{ count }} )",
+      "item_added": "Артикулът е добавен към вашата количка"
+    },
+    "share": {
+      "close": "Затворете споделянето",
+      "copy_to_clipboard": "Копирай връзка",
+      "share_url": "Връзка",
+      "success_message": "Връзката е копирана в клипборда"
+    },
+    "slider": {
+      "of": "на",
+      "next_slide": "Плъзнете надясно",
+      "previous_slide": "Плъзнете наляво",
+      "name": "Плъзгач"
+    }
+  },
+  "newsletter": {
+    "label": "електронна поща",
+    "success": "Благодаря, че се абонирахте",
+    "button_label": "Абонирай се"
+  },
+  "accessibility": {
+    "skip_to_text": "Преминете към съдържанието",
+    "skip_to_product_info": "Преминете към информацията за продукта",
+    "close": "Близо",
+    "unit_price_separator": "пер",
+    "error": "Грешка",
+    "refresh_page": "Избирането на селекция води до пълно опресняване на страницата.",
+    "link_messages": {
+      "new_window": "Отваря се в нов прозорец.",
+      "external": "Отваря външен уебсайт."
+    },
+    "loading": "Зареждане...",
+    "total_reviews": "общо прегледи",
+    "star_reviews_info": "{{ rating_value }} от {{ rating_max }} звезди",
+    "collapsible_content_title": "Сгъваемо съдържание",
+    "complementary_products": "Допълващи продукти"
   }
 }
